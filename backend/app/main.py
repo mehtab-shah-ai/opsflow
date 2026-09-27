@@ -265,6 +265,17 @@ def create_app(runtime: Path | None = None):
         expose_headers=["Content-Disposition", "X-Request-ID"],
     )
 
+    @app.get("/")
+    def root_status():
+        return {
+            "service": "OpsFlow AI Backend",
+            "status": "ready",
+            "version": "1.0.0",
+            "health": "/health",
+            "docs": "/docs",
+            "prototype": "Grace Facility Services",
+        }
+
     @app.get("/health")
     def health_check():
         return {"status": "ok", "service": "OpsFlow Backend"}

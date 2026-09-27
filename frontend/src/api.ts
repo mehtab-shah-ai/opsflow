@@ -1,4 +1,7 @@
-export const API_BASE = (import.meta.env.VITE_API_BASE_URL || '').replace(/\/$/, '')
+export const API_BASE = (
+  import.meta.env.VITE_API_BASE_URL ||
+  (import.meta.env.PROD ? 'https://opsflow-backend-8e8k.onrender.com' : '')
+).replace(/\/$/, '')
 export const base = API_BASE
 export const apiUrl = (path: string) => API_BASE + path
 
