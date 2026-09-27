@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { useQuery, useQueryClient } from '@tanstack/react-query'
-import { Activity, ArrowRight, Bell, ChartNoAxesCombined, Check, ChevronDown, CircleHelp, Database, FileText, GitBranch, History as HistoryIcon, Layers3, LayoutDashboard, LoaderCircle, LockKeyhole, LogOut, Menu, RotateCcw, Search, ShieldCheck, Sparkles, TriangleAlert, Upload, User as UserIcon, X } from 'lucide-react'
+import { Activity, ArrowRight, Bell, ChartNoAxesCombined, Check, ChevronDown, ChevronRight, CircleHelp, Database, FileSpreadsheet, FileText, GitBranch, History as HistoryIcon, Layers3, LayoutDashboard, LoaderCircle, LockKeyhole, LogOut, Menu, RotateCcw, Search, ShieldCheck, Sparkles, Table, TriangleAlert, Upload, User as UserIcon, X } from 'lucide-react'
 import { AnimatePresence, motion, MotionConfig } from 'framer-motion'
 import { api, apiUrl, download, post, setAuthToken } from './api'
 import { Badge, DataTable, display, human, Modal, num } from './components'
@@ -37,6 +37,12 @@ export default function App() {
   const [user, setUser] = useState<User | null>(null), [authOpen, setAuthOpen] = useState(false), [authMode, setAuthMode] = useState<'login' | 'register'>('login'), [authEmail, setAuthEmail] = useState(''), [authPassword, setAuthPassword] = useState(''), [authName, setAuthName] = useState(''), [authError, setAuthError] = useState(''), [authBusy, setAuthBusy] = useState(false)
   const [cleanMode, setCleanMode] = useState(localStorage.getItem('opsflow.clean_mode') === 'true')
   const [cleanConfirmOpen, setCleanConfirmOpen] = useState(false)
+  const [uploadSuccess, setUploadSuccess] = useState<{
+    filename: string
+    datasetId?: string
+    rows?: number
+  } | null>(null)
+  const pendingUploadFilename = useRef<string | null>(null)
   const [sessionChats, setSessionChats] = useState<Record<string, ChatMessage[]>>({})
   const pending = useRef<string | null>(null), pendingClean = useRef(false), autoDemoTriggered = useRef(false)
   const fileInputRef = useRef<HTMLInputElement>(null)
@@ -106,15 +112,24 @@ export default function App() {
   useEffect(() => {
     const job = jobs.data?.items.find(j => j.id === pending.current)
     if (job?.status === 'completed' && job.dataset_id) {
+      const fname = job.filename || pendingUploadFilename.current || 'Dataset'
       pending.current = null
+      pendingUploadFilename.current = null
       setDatasetId(job.dataset_id)
       localStorage.setItem('opsflow.dataset', job.dataset_id)
       setSummary(undefined)
       setBusy(false)
       setNotice('Your data is ready. Originals are preserved.')
+      setPage('Data Sources')
+      setUploadSuccess({
+        filename: fname,
+        datasetId: job.dataset_id,
+        rows: job.rows,
+      })
       if (pendingClean.current) { pendingClean.current = false; setCleanOpen(true) }
     } else if (job?.status === 'failed') {
       pending.current = null
+      pendingUploadFilename.current = null
       setBusy(false)
       setError(job.error || 'Processing failed. Please try another file.')
     } else if (job?.status === 'awaiting_selection') {
@@ -166,11 +181,22 @@ export default function App() {
     for (const file of items.slice(0, 8)) {
       try {
         if (file.size > 10 * 1024 * 1024) throw new Error(`${file.name} exceeds 10 MB. Split it before importing.`)
+        pendingUploadFilename.current = file.name
         const form = new FormData()
         form.append('file', file)
         const j = await api<Job>('/api/uploads', { method: 'POST', body: form })
-        if (j.status === 'completed' && j.dataset_id) selectDataset(j.dataset_id)
-        else pending.current = j.id
+        if (j.status === 'completed' && j.dataset_id) {
+          selectDataset(j.dataset_id)
+          setPage('Data Sources')
+          setUploadSuccess({
+            filename: file.name,
+            datasetId: j.dataset_id,
+            rows: j.rows,
+          })
+          pendingUploadFilename.current = null
+        } else {
+          pending.current = j.id
+        }
         await queryClient.invalidateQueries({ queryKey: ['jobs'] })
       } catch (e) { fail(e) }
     }
@@ -178,11 +204,23 @@ export default function App() {
   }
 
   async function sheet(url: string) {
+    navigate('Data Sources')
     setBusy(true)
+    pendingUploadFilename.current = 'Google Sheet Dataset'
     try {
       const j = await post<Job>('/api/sheets', { url })
-      if (j.dataset_id) selectDataset(j.dataset_id)
-      else pending.current = j.id
+      if (j.status === 'completed' && j.dataset_id) {
+        selectDataset(j.dataset_id)
+        setPage('Data Sources')
+        setUploadSuccess({
+          filename: j.filename || 'Google Sheet Dataset',
+          datasetId: j.dataset_id,
+          rows: j.rows,
+        })
+        pendingUploadFilename.current = null
+      } else {
+        pending.current = j.id
+      }
       await queryClient.invalidateQueries({ queryKey: ['jobs'] })
       setBusy(false)
     } catch (e) { fail(e) }
@@ -442,20 +480,139 @@ export default function App() {
 
           <main className="main-content" id="main-content">
             <div className="page-heading">
-              <div>
+              <div className="page-title-block">
                 <div className="eyebrow">YOUR OPERATIONS, UNDERSTOOD.</div>
                 <h1>{headings[page][0]}</h1>
                 <p>{headings[page][1]}</p>
               </div>
+
+              {page === 'Overview' && (
+                <div className="header-flow-container">
+                  <div className="header-flow-top-row">
+                    <button 
+                      type="button" 
+                      className="flow-top-demo-btn"
+                      onClick={() => {
+                        if (cleanMode) loadDemoData()
+                        else setCleanConfirmOpen(true)
+                      }}
+                      title={cleanMode ? "Load synthetic dataset to understand the working of OpsFlow" : "Clean workspace and start fresh"}
+                    >
+                      {cleanMode ? <Sparkles size={13} className="sparkle-icon" /> : <RotateCcw size={13} />}
+                      <strong>{cleanMode ? 'Load Demo Data' : 'Clean Workspace'}</strong>
+                      <span className="flow-btn-sub">— to understand the working of OpsFlow</span>
+                    </button>
+                  </div>
+
+                  <div className="header-flow-strip" role="region" aria-label="Operational pipeline flow">
+                    {/* Stage 1: Raw Intake Formats */}
+                    <div 
+                      className="flow-chip intake-chip" 
+                      onClick={triggerUpload} 
+                      title="Stage 1: Multi-format Raw Intake (Click to upload files)"
+                      role="button"
+                      tabIndex={0}
+                    >
+                      <div className="flow-chip-tag">STAGE 1: INTAKE</div>
+                      <div className="fmt-badges">
+                        <span className="fmt-badge xlsx">
+                          <FileSpreadsheet size={12} />
+                          <span>Excel</span>
+                        </span>
+                        <span className="fmt-badge csv">
+                          <Table size={12} />
+                          <span>CSV</span>
+                        </span>
+                        <span className="fmt-badge pdf">
+                          <FileText size={12} />
+                          <span>PDF</span>
+                        </span>
+                      </div>
+                    </div>
+
+                    <div className="flow-arrow" aria-hidden="true">
+                      <ChevronRight size={14} />
+                    </div>
+
+                    {/* Stage 2: Safe Rule-Based Cleaning & Audit */}
+                    <button 
+                      type="button" 
+                      className="flow-chip step-chip clean-chip" 
+                      onClick={() => navigate('Data Quality')}
+                      title="Stage 2: Safe Rule-Based Cleaning & Audit (Click to view)"
+                    >
+                      <div className="flow-chip-tag">STAGE 2</div>
+                      <div className="flow-chip-body">
+                        <div className="flow-icon-circle clean-icon">
+                          <ShieldCheck size={14} />
+                        </div>
+                        <div className="flow-chip-text">
+                          <b>Clean & Audit</b>
+                          <small>Rule-Based V2</small>
+                        </div>
+                      </div>
+                    </button>
+
+                    <div className="flow-arrow" aria-hidden="true">
+                      <ChevronRight size={14} />
+                    </div>
+
+                    {/* Stage 3: AI Copilot & Analytics */}
+                    <button 
+                      type="button" 
+                      className="flow-chip step-chip ai-chip" 
+                      onClick={() => navigate('AI Copilot')}
+                      title="Stage 3: AI Copilot & Schema Analytics (Click to view)"
+                    >
+                      <div className="flow-chip-tag">STAGE 3</div>
+                      <div className="flow-chip-body">
+                        <div className="flow-icon-circle ai-icon">
+                          <Sparkles size={14} />
+                        </div>
+                        <div className="flow-chip-text">
+                          <b>AI Copilot</b>
+                          <small>ECharts & Insights</small>
+                        </div>
+                      </div>
+                    </button>
+
+                    <div className="flow-arrow" aria-hidden="true">
+                      <ChevronRight size={14} />
+                    </div>
+
+                    {/* Stage 4: Executive MIS & Exports */}
+                    <button 
+                      type="button" 
+                      className="flow-chip step-chip mis-chip" 
+                      onClick={() => navigate('Reports')}
+                      title="Stage 4: Executive MIS & Reports (Click to view)"
+                    >
+                      <div className="flow-chip-tag">STAGE 4</div>
+                      <div className="flow-chip-body">
+                        <div className="flow-icon-circle mis-icon">
+                          <FileText size={14} />
+                        </div>
+                        <div className="flow-chip-text">
+                          <b>MIS Reports</b>
+                          <small>Board PDF & Excel</small>
+                        </div>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              )}
+
               <div className="page-actions">
-                {!cleanMode ? (
-                  <button className="button secondary" onClick={() => setCleanConfirmOpen(true)}>
-                    <RotateCcw size={15} />Clean Workspace
-                  </button>
-                ) : (
-                  <button className="button secondary" onClick={loadDemoData}>
-                    <Sparkles size={15} />Load Demo Data
-                  </button>
+                {page !== 'Overview' && (
+                  !cleanMode ? (
+                    <button className="button secondary" onClick={() => setCleanConfirmOpen(true)}>
+                      <RotateCcw size={15} />Clean Workspace
+                    </button>
+                  ) : (
+                    <button className="button secondary" onClick={loadDemoData}>
+                      <Sparkles size={15} />Load Demo Data
+                    </button>
+                  )
                 )}
                 {live && (
                   <select className="dataset-select" aria-label="Active dataset" value={datasetId} onChange={e => selectDataset(e.target.value)}>
@@ -500,7 +657,6 @@ export default function App() {
               <motion.div key={page} className="page-body" initial={{ opacity: 0, y: 5 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }} transition={{ duration: .14 }}>
                 {page === 'Data Sources' && (
                   <Sources
-                    key={dataset?.id || 'empty-sources'}
                     dataset={dataset}
                     live={live}
                     onError={fail}
@@ -510,6 +666,9 @@ export default function App() {
                     jobs={jobList}
                     onSelect={(j, t) => void select(j, t)}
                     onOpen={selectDataset}
+                    onNavigate={navigate}
+                    uploadSuccessNotice={uploadSuccess}
+                    onClearUploadNotice={() => setUploadSuccess(null)}
                   />
                 )}
 
@@ -864,6 +1023,8 @@ export default function App() {
             </div>
           </Modal>
         )}
+
+
 
         {showWakeup && !wakeDismissed && (
           <div className="backend-wakeup-overlay" role="dialog" aria-modal="true" aria-labelledby="wakeup-title">

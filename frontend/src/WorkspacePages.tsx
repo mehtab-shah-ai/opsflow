@@ -1,18 +1,329 @@
 import { useEffect, useRef, useState } from 'react'
 import { useQuery } from '@tanstack/react-query'
-import { ArrowDownToLine, ArrowRight, Check, ChevronRight, CloudUpload, Database, FileSpreadsheet, FileText, Globe2, Link, LoaderCircle, LockKeyhole, RotateCcw, Send, ShieldCheck, Sparkles, Upload } from 'lucide-react'
+import { ArrowDownToLine, ArrowRight, ChartNoAxesCombined, Check, ChevronRight, CloudUpload, Database, FileSpreadsheet, FileText, Globe2, Link, LoaderCircle, LockKeyhole, RotateCcw, Search, Send, ShieldCheck, Sparkles, Upload, X } from 'lucide-react'
 import { api, apiUrl, post } from './api'
 import { Badge, ChartPanel, DataTable, display, human, num, Panel } from './components'
 import type { ChatMessage, Dataset, Job, Row, Status } from './types'
 
 interface Base {dataset:Dataset;live:boolean;onError:(e:unknown)=>void;onDemo:()=>void}
-export function Sources({dataset,live,onError,onDemo,onFiles,onSheet,jobs,onSelect,onOpen}:{dataset?:Dataset|null;live:boolean;onError:(e:unknown)=>void;onDemo:()=>void;onFiles:(f:File[])=>void;onSheet:(u:string)=>void;jobs:Job[];onSelect:(j:Job,t:number)=>void;onOpen:(id:string)=>void}) {
- const input=useRef<HTMLInputElement>(null),[url,setUrl]=useState(''),[drag,setDrag]=useState(false),[original,setOriginal]=useState(false),[page,setPage]=useState(1)
- const rows=useQuery({queryKey:['rows',dataset?.id,dataset?.version,page,original],queryFn:()=>(live&&dataset?.id)?api<{items:Row[];total:number}>(`/api/datasets/${dataset.id}/rows?page=${page}&size=100&original=${original}`):fetch('/demo-rows.json').then(r=>r.json()).then(items=>({items:items as Row[],total:25})),enabled:!!dataset?.id||!live})
- return <><div className="two-grid"><Panel className={`upload-panel ${drag?'dragging':''}`}><div className="drop-zone" onDragOver={e=>{e.preventDefault();setDrag(true)}} onDragLeave={()=>setDrag(false)} onDrop={e=>{e.preventDefault();setDrag(false);onFiles(Array.from(e.dataTransfer.files))}}><div className="upload-icon"><CloudUpload size={30}/></div><h3>Your next insight starts here.</h3><p>Drop your operational files, or choose them below.<br/>Multiple files. One clear workflow.</p><button className="button primary" onClick={()=>input.current?.click()}><Upload size={16}/>Choose files</button><input ref={input} type="file" multiple accept=".csv,.xlsx,.xls,.pdf" hidden onChange={e=>{onFiles(Array.from(e.target.files||[]));e.target.value=''}}/><div className="file-types"><Badge>CSV</Badge><Badge>Excel</Badge><Badge>PDF</Badge><span>Up to 10 MB each</span></div></div><div className="trust-strip"><LockKeyhole size={14}/>Original files remain unchanged. Changes need your approval.</div></Panel><Panel title="Connect a Google Sheet" subtitle="Bring a public worksheet into your operations workspace"><div className="sheet-form"><div className="sheet-illustration"><FileSpreadsheet size={38}/><span className="connection-dots">······</span><Database size={32}/></div><label htmlFor="sheet-url">Public Google Sheets URL</label><div className="input-icon"><Link size={16}/><input id="sheet-url" placeholder="https://docs.google.com/spreadsheets/d/…" value={url} onChange={e=>setUrl(e.target.value)}/></div><button className="button secondary full" onClick={()=>onSheet(url)} disabled={!url.trim()}>Import worksheet<ArrowRight size={16}/></button><p className="text-small muted"><Globe2 size={13}/>The sheet must allow public link access. Private account sign-in is not required.</p></div></Panel></div>
- <Panel title="Processing workspace" subtitle="Each file has its own job. You can leave this page and return." action={<button className="text-button" onClick={onDemo}>Load synthetic demo<ArrowRight size={14}/></button>}><div className="job-list">{jobs.length?jobs.map(j=><div className="job-row" key={j.id}><div className="file-tile"><FileSpreadsheet size={21}/></div><div className="job-content"><div className="job-heading"><b>{j.filename}</b><Badge tone={j.status==='failed'?'critical':j.status==='completed'?'success':'warning'}>{human(j.status)}</Badge></div><p>{j.error||j.stage}{j.rows?` · ${num(j.rows)} rows · ${j.duration}s`:''}</p>{!['completed','failed'].includes(j.status)&&<div className="progress-track"><div style={{width:j.progress+'%'}}/></div>}{j.status==='awaiting_selection'&&<div className="table-choices">{j.tables?.map(t=><div key={t.index}><b>{t.name}</b><small>{num(t.rows)} rows · {t.columns.length} columns · {t.confidence} confidence</small><details><summary>Preview detected table</summary><DataTable rows={t.preview}/></details><button className="button secondary" onClick={()=>onSelect(j,t.index)}>Import this table<ChevronRight size={14}/></button></div>)}</div>}</div>{j.dataset_id&&<button className="icon-button" aria-label={`Open ${j.filename}`} onClick={()=>onOpen(j.dataset_id!)}><ArrowRight size={19}/></button>}</div>):<div className="empty"><FileSpreadsheet size={25}/><p>No files imported yet. Choose a file or explore the synthetic demo.</p></div>}</div></Panel>
- {dataset?(<Panel className="dataset-view-panel" title="Inside your dataset" subtitle={`${dataset.filename} · ${dataset.table_name}`} action={<div className="segmented"><button className={!original?'selected':''} onClick={()=>setOriginal(false)}>Current version</button><button className={original?'selected':''} onClick={()=>setOriginal(true)}>Original</button></div>}>{dataset.warnings.map(w=><p className="inline-notice" key={w}>{w}</p>)}{rows.error?<div className="empty"><p>{rows.error.message}</p><button className="button secondary" onClick={()=>rows.refetch().catch(onError)}>Retry</button></div>:<DataTable rows={rows.data?.items||[]} highlight={new Set(dataset.analysis.issues.map(i=>i.source_row))}/>}<div className="panel-bottom"><span>{live?`Source page ${page}; up to 100 records loaded at a time`:'Preview contains 25 sample rows. Load the demo for all records.'}</span>{live&&<div className="button-row"><button className="text-button" disabled={page===1} onClick={()=>setPage(page-1)}>Previous source page</button><button className="text-button" disabled={page*100>=(rows.data?.total||0)} onClick={()=>setPage(page+1)}>Next source page<ArrowRight size={13}/></button></div>}</div></Panel>):(<Panel className="dataset-view-panel" title="Inside your dataset" subtitle="Awaiting data file"><div className="empty"><FileSpreadsheet size={34}/><h4>No dataset loaded yet</h4><p>Drop your CSV, Excel (.xlsx, .xls) or PDF above to profile and clean.<br/>Your raw originals will remain completely safe and untouched.</p><div className="button-row" style={{marginTop:'12px'}}><button className="button primary" onClick={()=>input.current?.click()}><Upload size={15}/>Choose files to upload</button><button className="button secondary" onClick={onDemo}><Sparkles size={15}/>Load synthetic demo</button></div></div></Panel>)}</>
+export function Sources({
+  dataset,
+  live,
+  onError,
+  onDemo,
+  onFiles,
+  onSheet,
+  jobs,
+  onSelect,
+  onOpen,
+  onNavigate,
+  uploadSuccessNotice,
+  onClearUploadNotice,
+}: {
+  dataset?: Dataset | null
+  live: boolean
+  onError: (e: unknown) => void
+  onDemo: () => void
+  onFiles: (f: File[]) => void
+  onSheet: (u: string) => void
+  jobs: Job[]
+  onSelect: (j: Job, t: number) => void
+  onOpen: (id: string) => void
+  onNavigate?: (p: string) => void
+  uploadSuccessNotice?: { filename: string; datasetId?: string; rows?: number } | null
+  onClearUploadNotice?: () => void
+}) {
+  const input = useRef<HTMLInputElement>(null)
+  const datasetSectionRef = useRef<HTMLDivElement>(null)
+  const [url, setUrl] = useState('')
+  const [drag, setDrag] = useState(false)
+  const [original, setOriginal] = useState(false)
+  const [page, setPage] = useState(1)
+  const [sourceTab, setSourceTab] = useState<'file' | 'sheet'>('file')
+
+  const rows = useQuery({
+    queryKey: ['rows', dataset?.id, dataset?.version, page, original],
+    queryFn: () => (live && dataset?.id)
+      ? api<{ items: Row[]; total: number }>(`/api/datasets/${dataset.id}/rows?page=${page}&size=100&original=${original}`)
+      : fetch('/demo-rows.json').then(r => r.json()).then(items => ({ items: items as Row[], total: 25 })),
+    enabled: !!dataset?.id || !live,
+  })
+
+  useEffect(() => {
+    setPage(1)
+    setOriginal(false)
+  }, [dataset?.id])
+
+  // Smoothly scroll down to full "Inside your dataset" section on upload completion
+  useEffect(() => {
+    if (uploadSuccessNotice) {
+      const timer = setTimeout(() => {
+        datasetSectionRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+      }, 120)
+      return () => clearTimeout(timer)
+    }
+  }, [uploadSuccessNotice])
+
+  // Auto-dismiss the "Find with value and Analyze" popup after 5 seconds
+  useEffect(() => {
+    if (!uploadSuccessNotice) return
+    const timer = setTimeout(() => {
+      onClearUploadNotice?.()
+    }, 5000)
+    return () => clearTimeout(timer)
+  }, [uploadSuccessNotice, onClearUploadNotice])
+
+  function handleFindWithValue() {
+    const searchInp = document.getElementById('dataset-search-input') as HTMLInputElement | null
+    if (searchInp) {
+      searchInp.focus()
+      searchInp.classList.add('search-highlight-pulse')
+      setTimeout(() => searchInp.classList.remove('search-highlight-pulse'), 2400)
+      searchInp.scrollIntoView({ behavior: 'smooth', block: 'center' })
+    }
+  }
+
+  return (
+    <>
+      {/* TOP ROW: Upload on Left & Compact Processing Workspace on Right */}
+      <div className="sources-top-grid">
+        <Panel className={`sources-upload-panel ${drag ? 'dragging' : ''}`}>
+          <div className="sources-upload-tabs">
+            <button
+              type="button"
+              className={`sources-tab-btn ${sourceTab === 'file' ? 'active' : ''}`}
+              onClick={() => setSourceTab('file')}
+            >
+              <Upload size={13} />
+              <span>Upload Files (CSV, Excel, PDF)</span>
+            </button>
+            <button
+              type="button"
+              className={`sources-tab-btn ${sourceTab === 'sheet' ? 'active' : ''}`}
+              onClick={() => setSourceTab('sheet')}
+            >
+              <Globe2 size={13} />
+              <span>Google Sheets</span>
+            </button>
+          </div>
+
+          {sourceTab === 'file' ? (
+            <div
+              className="drop-zone compact-dropzone"
+              onDragOver={e => { e.preventDefault(); setDrag(true) }}
+              onDragLeave={() => setDrag(false)}
+              onDrop={e => { e.preventDefault(); setDrag(false); onFiles(Array.from(e.dataTransfer.files)) }}
+            >
+              <div className="upload-icon compact-icon"><CloudUpload size={24} /></div>
+              <h3>Drop operational files to ingest</h3>
+              <p className="text-small muted">CSV, Excel (.xlsx, .xls) or PDF · Up to 10 MB per file</p>
+              <button type="button" className="button primary small" onClick={() => input.current?.click()}>
+                <Upload size={14} />Choose files to upload
+              </button>
+              <input ref={input} type="file" multiple accept=".csv,.xlsx,.xls,.pdf" hidden onChange={e => { onFiles(Array.from(e.target.files || [])); e.target.value = '' }} />
+              <div className="file-types compact-file-types">
+                <Badge>CSV</Badge><Badge>Excel</Badge><Badge>PDF</Badge>
+                <span className="compact-trust-note"><LockKeyhole size={11} />Raw data preserved</span>
+              </div>
+            </div>
+          ) : (
+            <div className="sheet-form compact-sheet-form">
+              <label htmlFor="sheet-url">Public Google Sheets URL</label>
+              <div className="input-icon">
+                <Link size={15} />
+                <input id="sheet-url" placeholder="https://docs.google.com/spreadsheets/d/…" value={url} onChange={e => setUrl(e.target.value)} />
+              </div>
+              <button type="button" className="button secondary full small" onClick={() => onSheet(url)} disabled={!url.trim()}>
+                <span>Import worksheet</span><ArrowRight size={14} />
+              </button>
+              <p className="text-small muted"><Globe2 size={12} />Public link access required. No private credentials needed.</p>
+            </div>
+          )}
+        </Panel>
+
+        {/* RIGHT: Compact Processing Workspace */}
+        <Panel
+          className="compact-workspace-panel"
+          title="Processing workspace"
+          subtitle={`${jobs.length} file job${jobs.length === 1 ? '' : 's'}`}
+          action={
+            <button type="button" className="text-button compact-demo-btn" onClick={onDemo} title="Load synthetic demo">
+              <span>Load demo</span><ArrowRight size={12} />
+            </button>
+          }
+        >
+          <div className="compact-job-list">
+            {jobs.length ? (
+              jobs.map(j => {
+                const isActive = j.dataset_id === dataset?.id
+                return (
+                  <div
+                    className={`compact-job-row ${isActive ? 'active-job-item' : ''}`}
+                    key={j.id}
+                    onClick={() => j.dataset_id && onOpen(j.dataset_id)}
+                    role="button"
+                    tabIndex={0}
+                    title={j.dataset_id ? `Click to view ${j.filename} in table` : undefined}
+                  >
+                    <div className={`compact-file-tile ${j.status === 'failed' ? 'failed' : ''}`}>
+                      {j.filename?.toLowerCase().endsWith('.pdf') ? <FileText size={16} /> : <FileSpreadsheet size={16} />}
+                    </div>
+                    <div className="compact-job-content">
+                      <div className="compact-job-title-row">
+                        <strong className="compact-filename" title={j.filename}>{j.filename}</strong>
+                        <Badge tone={j.status === 'failed' ? 'critical' : j.status === 'completed' ? 'success' : 'warning'}>
+                          {human(j.status)}
+                        </Badge>
+                      </div>
+                      <div className="compact-job-meta-row">
+                        <span className="compact-job-detail">{j.error || (j.rows ? `${num(j.rows)} rows · ${j.duration}s` : j.stage)}</span>
+                        {isActive && <span className="active-pill">Active</span>}
+                      </div>
+                      {!['completed', 'failed'].includes(j.status) && (
+                        <div className="progress-track" style={{ marginTop: '5px' }}>
+                          <div style={{ width: j.progress + '%' }} />
+                        </div>
+                      )}
+                      {j.status === 'awaiting_selection' && (
+                        <div className="table-choices compact-choices" onClick={e => e.stopPropagation()}>
+                          {j.tables?.map(t => (
+                            <div key={t.index}>
+                              <b>{t.name}</b>
+                              <small>{num(t.rows)} rows · {t.columns.length} cols</small>
+                              <button type="button" className="button secondary small" onClick={() => onSelect(j, t.index)}>
+                                Import<ChevronRight size={12} />
+                              </button>
+                            </div>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                    {j.dataset_id && (
+                      <span className="compact-open-icon" title="View dataset">
+                        <ArrowRight size={14} />
+                      </span>
+                    )}
+                  </div>
+                )
+              })
+            ) : (
+              <div className="empty compact-empty">
+                <FileSpreadsheet size={24} />
+                <p>No files processed yet.<br />Drop a file on the left to start.</p>
+              </div>
+            )}
+          </div>
+        </Panel>
+      </div>
+
+      {/* MAIN: Inside your dataset (Moved UP directly below the top area!) */}
+      <div id="dataset-view-section" ref={datasetSectionRef}>
+        {dataset ? (
+          <Panel
+            className="dataset-view-panel"
+            title="Inside your dataset"
+            subtitle={`${dataset.filename} · ${dataset.table_name}`}
+            action={
+              <div className="segmented">
+                <button className={!original ? 'selected' : ''} onClick={() => setOriginal(false)}>Current version</button>
+                <button className={original ? 'selected' : ''} onClick={() => setOriginal(true)}>Original</button>
+              </div>
+            }
+          >
+            {/* POP-UP / FLOATING BANNER: "Find with value and Analyze" */}
+            {uploadSuccessNotice && (
+              <div className="find-analyze-popup-banner">
+                <div className="find-analyze-content">
+                  <div className="find-analyze-icon">
+                    <Sparkles size={20} />
+                  </div>
+                  <div className="find-analyze-text">
+                    <div className="find-analyze-header-row">
+                      <span className="find-analyze-badge">Upload Complete</span>
+                      <h4>Find with value and Analyze</h4>
+                    </div>
+                    <p>
+                      <strong>{uploadSuccessNotice.filename}</strong> {uploadSuccessNotice.rows ? `(${num(uploadSuccessNotice.rows)} records)` : ''} is ready. Search values directly in the dataset or jump into automated analysis.
+                    </p>
+                  </div>
+                  <div className="find-analyze-actions">
+                    <button
+                      type="button"
+                      className="button lime small find-btn"
+                      onClick={handleFindWithValue}
+                    >
+                      <Search size={13} />
+                      <span>Find with value</span>
+                    </button>
+                    <button
+                      type="button"
+                      className="button secondary small analyze-btn"
+                      onClick={() => onNavigate?.('Analytics')}
+                    >
+                      <ChartNoAxesCombined size={13} />
+                      <span>Analyze</span>
+                    </button>
+                    <button
+                      type="button"
+                      className="button secondary small copilot-btn"
+                      onClick={() => onNavigate?.('AI Copilot')}
+                    >
+                      <Sparkles size={13} />
+                      <span>AI Copilot</span>
+                    </button>
+                    <button
+                      type="button"
+                      className="icon-button close-banner-btn"
+                      onClick={onClearUploadNotice}
+                      title="Dismiss banner"
+                    >
+                      <X size={16} />
+                    </button>
+                  </div>
+                </div>
+                <div className="popup-countdown-track">
+                  <div className="popup-countdown-bar" />
+                </div>
+              </div>
+            )}
+
+            {dataset.warnings.map(w => <p className="inline-notice" key={w}>{w}</p>)}
+            {rows.error ? (
+              <div className="empty">
+                <p>{rows.error.message}</p>
+                <button className="button secondary" onClick={() => rows.refetch().catch(onError)}>Retry</button>
+              </div>
+            ) : (
+              <DataTable rows={rows.data?.items || []} highlight={new Set(dataset.analysis.issues.map(i => i.source_row))} />
+            )}
+            <div className="panel-bottom">
+              <span>{live ? `Source page ${page}; up to 100 records loaded at a time` : 'Preview contains 25 sample rows. Load the demo for all records.'}</span>
+              {live && (
+                <div className="button-row">
+                  <button className="text-button" disabled={page === 1} onClick={() => setPage(page - 1)}>Previous source page</button>
+                  <button className="text-button" disabled={page * 100 >= (rows.data?.total || 0)} onClick={() => setPage(page + 1)}>Next source page<ArrowRight size={13} /></button>
+                </div>
+              )}
+            </div>
+          </Panel>
+        ) : (
+          <Panel className="dataset-view-panel" title="Inside your dataset" subtitle="Awaiting data file">
+            <div className="empty">
+              <FileSpreadsheet size={34} />
+              <h4>No dataset loaded yet</h4>
+              <p>Drop your CSV, Excel (.xlsx, .xls) or PDF above to profile and clean.<br />Your raw originals will remain completely safe and untouched.</p>
+              <div className="button-row" style={{ marginTop: '12px' }}>
+                <button className="button primary" onClick={() => input.current?.click()}><Upload size={15} />Choose files to upload</button>
+                <button className="button secondary" onClick={onDemo}><Sparkles size={15} />Load synthetic demo</button>
+              </div>
+            </div>
+          </Panel>
+        )}
+      </div>
+    </>
+  )
 }
+
 
 export function Quality({dataset,live,onClean,onDownload,exceptions=false}:{dataset:Dataset;live:boolean;onClean:()=>void;onDownload:(q:string,n:string)=>void;exceptions?:boolean}) {
  const [severity,setSeverity]=useState('all'),[category,setCategory]=useState('all'),[selected,setSelected]=useState<Row|null>(null)
