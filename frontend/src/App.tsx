@@ -38,7 +38,7 @@ export default function App() {
   const [cleanMode, setCleanMode] = useState(localStorage.getItem('opsflow.clean_mode') === 'true')
   const [cleanConfirmOpen, setCleanConfirmOpen] = useState(false)
   const [sessionChats, setSessionChats] = useState<Record<string, ChatMessage[]>>({})
-  const pending = useRef<string | null>(null), pendingClean = useRef(false)
+  const pending = useRef<string | null>(null), pendingClean = useRef(false), autoDemoTriggered = useRef(false)
   const fileInputRef = useRef<HTMLInputElement>(null)
   const [cleanDrag, setCleanDrag] = useState(false)
   const [wakeSeconds, setWakeSeconds] = useState(0)
@@ -126,23 +126,33 @@ export default function App() {
   useEffect(() => { if (!notice) return; const id = setTimeout(() => setNotice(''), 5000); return () => clearTimeout(id) }, [notice])
   useEffect(() => { function key(e: KeyboardEvent) { if ((e.ctrlKey || e.metaKey) && e.key === 'k') { e.preventDefault(); setSearchOpen(v => !v) } } window.addEventListener('keydown', key); return () => window.removeEventListener('keydown', key) }, [])
 
-  async function demo() {
+  async function demo(silent = false) {
     setCleanMode(false)
     localStorage.removeItem('opsflow.clean_mode')
-    setBusy(true)
+    if (!silent) setBusy(true)
     setError('')
     try {
       const j = await post<Job>('/api/demo')
       if (j.status === 'completed' && j.dataset_id) {
         selectDataset(j.dataset_id)
-        setBusy(false)
+        if (!silent) setBusy(false)
         if (pendingClean.current) { pendingClean.current = false; setCleanOpen(true) }
       } else {
         pending.current = j.id
         await queryClient.invalidateQueries({ queryKey: ['jobs'] })
       }
-    } catch (e) { fail(e) }
+    } catch (e) {
+      if (!silent) fail(e)
+    }
   }
+
+  // Automatically load demo dataset on first visit so recruiters and users immediately see full data and features
+  useEffect(() => {
+    if (status.data && !datasetId && !cleanMode && !autoDemoTriggered.current) {
+      autoDemoTriggered.current = true
+      void demo(true)
+    }
+  }, [status.data, datasetId, cleanMode])
 
   function openClean(column?: string | null) {
     setCleanColumn(column || null)
