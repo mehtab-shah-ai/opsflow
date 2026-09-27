@@ -1,0 +1,39 @@
+services:
+  # 1. Backend Web Service (FastAPI + AI Engine + SQLite)
+  - type: web
+    name: opsflow-backend
+    runtime: python
+    region: oregon
+    plan: free
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.0
+      - key: RUNTIME_DIR
+        value: /tmp/opsflow_runtime
+      - key: GROQ_API_KEY_1
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+
+  # 2. Frontend Static Site (React + Vite + ECharts)
+  - type: static
+    name: opsflow-frontend
+    region: oregon
+    plan: free
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+    envVars:
+      - key: VITE_API_BASE_URL
+        fromService:
+          type: web
+          name: opsflow-backend
+          property: host

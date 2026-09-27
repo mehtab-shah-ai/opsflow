@@ -1,0 +1,42 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python virtual environment & caches
+.venv/
+env/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Local runtime storage & database (WAL, SQLite, uploaded temp files)
+runtime/
+*.db
+*.sqlite3
+*.db-wal
+*.db-shm
+
+# Node & Frontend build
+node_modules/
+dist/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing & Logs
+test-results/
+playwright-report/
+*.log
+.superdesign/
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

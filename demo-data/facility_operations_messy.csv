@@ -1,0 +1,1269 @@
+employee_id,employee_name,site,client,date,shift,required_staff,attendance_status,check_in,check_out,hours_worked,task_status,incident_count,supervisor,remarks,sla_status
+,Aarav Shah,,Demo client 1,2026-02-30,,9,Present,08:00,16:00,0,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0002,Priya Nair,Vikhroli,Demo client 1,2026-09-01,Day,9,Absent,08:00,16:00,0,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0003,Imran Khan,Vikhroli,Demo client 1,2026-09-01,Day,9,Absent,08:00,16:00,0,Pending,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0004,Sneha Patil,Vikhroli,Demo client 1,2026-09-01,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0005,Rohan Das,Vikhroli,Demo client 1,2026-09-01,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0006,Anjali Rao,Vikhroli,Demo client 1,2026-09-01,Day,9,Present,08:00,16:00,8,Pending,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0007,Kabir Mehta,Vikhroli,Demo client 1,2026-09-01,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0008,Neha Kulkarni,Vikhroli,Demo client 1,2026-09-01,Day,9,Present,08:00,16:00,9,Pending,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0009,Aarav Shah,Vikhroli,Demo client 1,2026-09-01,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0021,Aarav Shah,Vikhroli,Demo client 1,2026-09-01,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0022,Priya Nair,Vikhroli,Demo client 1,2026-09-01,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0023,Imran Khan, VIKHROLI ,Demo client 1,2026-09-01,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0024,Sneha Patil,Vikhroli,Demo client 1,2026-09-01,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0025,Rohan Das,Vikhroli,Demo client 1,2026-09-01,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0026,Anjali Rao,Vikhroli,Demo client 1,2026-09-01,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0027,Kabir Mehta,Vikhroli,Demo client 1,2026-09-01,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0028,Neha Kulkarni,Vikhroli,Demo client 1,2026-09-01,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0029,Aarav Shah,Vikhroli,Demo client 1,2026-09-01,Evening,9,present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0101,Priya Nair,Andheri,Demo client 2,2026-09-01,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0102,Imran Khan,Andheri,Demo client 2,2026-09-01,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0103,Sneha Patil,Andheri,Demo client 2,2026-09-01,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0104,Rohan Das,Andheri,Demo client 2,2026-09-01,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Breached
+EMP-0105,Anjali Rao, ANDHERI ,Demo client 2,2026-09-01,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+ EMP-0106 ,Kabir Mehta,Andheri,Demo client 2,2026-09-01,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0107,Neha Kulkarni,Andheri,Demo client 2,2026-09-01,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0108,Aarav Shah,Andheri,Demo client 2,2026-09-01,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0109,Priya Nair,Andheri,Demo client 2,2026-09-01,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0121,Priya Nair,Andheri,Demo client 2,2026-09-01,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0122,Imran Khan,Andheri,Demo client 2,2026-09-01,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0123,Sneha Patil,Andheri,Demo client 2,2026-09-01,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0124,Rohan Das,Andheri,Demo client 2,2026-09-01,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0125,Anjali Rao,Andheri,Demo client 2,14/09/2026,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0126,Kabir Mehta,Andheri,Demo client 2,2026-09-01,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0127,Neha Kulkarni, ANDHERI ,Demo client 2,2026-09-01,Evening,9,Present,14:00,22:00,8,Pending,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0128,Aarav Shah,Andheri,Demo client 2,2026-09-01,Evening,9,absent,14:00,22:00,0,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0129,Priya Nair,Andheri,Demo client 2,2026-09-01,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0201,Imran Khan,Lower Parel,Demo client 3,2026-09-01,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0202,Sneha Patil,Lower Parel,Demo client 3,2026-09-01,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0203,Rohan Das,Lower Parel,Demo client 3,2026-09-01,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0204,Anjali Rao,Lower Parel,Demo client 3,2026-09-01,Day,9,Present,08:00,16:00,8,Pending,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0205,Kabir Mehta,Lower Parel,Demo client 3,2026-09-01,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0206,Neha Kulkarni,Lower Parel,Demo client 3,2026-09-01,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0207,Aarav Shah,Lower Parel,Demo client 3,2026-09-01,Day,9,Present,08:00,16:00,8,Pending,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0208,Priya Nair,Lower Parel,Demo client 3,2026-09-01,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0209,Imran Khan, LOWER PAREL ,Demo client 3,2026-09-01,Day,9,Present,08:00,16:00,8,Completed,1,Supervisor 3,Synthetic demonstration record,Met
+EMP-0221,Imran Khan,Lower Parel,Demo client 3,2026-09-01,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+ EMP-0222 ,Sneha Patil,Lower Parel,Demo client 3,2026-09-01,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0223,Rohan Das,Lower Parel,Demo client 3,2026-09-01,Evening,9,Present,14:00,22:00,10,Pending,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0224,Anjali Rao,Lower Parel,Demo client 3,2026-09-01,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0225,Kabir Mehta,Lower Parel,Demo client 3,2026-09-01,Evening,9,Present,14:00,22:00,10,Pending,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0226,Neha Kulkarni,Lower Parel,Demo client 3,2026-09-01,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0227,Aarav Shah,Lower Parel,Demo client 3,2026-09-01,Evening,9,present,14:00,22:00,10,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0228,Priya Nair,Lower Parel,Demo client 3,2026-09-01,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0229,Imran Khan,Lower Parel,Demo client 3,2026-09-01,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Breached
+EMP-0301,Sneha Patil,BKC,Demo client 4,2026-09-01,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0302,Rohan Das, BKC ,Demo client 4,2026-09-01,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0303,Anjali Rao,BKC,Demo client 4,2026-09-01,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0304,Kabir Mehta,BKC,Demo client 4,2026-09-01,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0305,Neha Kulkarni,BKC,Demo client 4,2026-09-01,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0306,Aarav Shah,BKC,Demo client 4,2026-09-01,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0307,Priya Nair,BKC,Demo client 4,2026-09-01,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0308,Imran Khan,BKC,Demo client 4,2026-09-01,Day,9,Absent,08:00,16:00,0,Completed,0,Supervisor 4,Synthetic demonstration record,Breached
+EMP-0309,Sneha Patil,BKC,Demo client 4,14/09/2026,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0321,Sneha Patil,BKC,Demo client 4,2026-09-01,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0322,Rohan Das,BKC,Demo client 4,2026-09-01,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0323,Anjali Rao,BKC,Demo client 4,2026-09-01,Evening,9,Present,14:00,22:00,8,Pending,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0324,Kabir Mehta, BKC ,Demo client 4,2026-09-01,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0325,Neha Kulkarni,BKC,Demo client 4,2026-09-01,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0326,Aarav Shah,BKC,Demo client 4,2026-09-01,Evening,9,present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+ EMP-0327 ,Priya Nair,BKC,Demo client 4,2026-09-01,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0328,Imran Khan,BKC,Demo client 4,2026-09-01,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0329,Sneha Patil,BKC,Demo client 4,2026-09-01,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0401,Rohan Das,Thane,Demo client 5,2026-09-01,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0402,Anjali Rao,Thane,Demo client 5,2026-09-01,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0403,Kabir Mehta,Thane,Demo client 5,2026-09-01,Day,9,Present,08:00,16:00,10,Completed,1,Supervisor 5,Synthetic demonstration record,Met
+EMP-0404,Neha Kulkarni,Thane,Demo client 5,2026-09-01,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0405,Aarav Shah,Thane,Demo client 5,2026-09-01,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0406,Priya Nair, THANE ,Demo client 5,2026-09-01,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Breached
+EMP-0407,Imran Khan,Thane,Demo client 5,2026-09-01,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0408,Sneha Patil,Thane,Demo client 5,2026-09-01,Day,9,Present,08:00,16:00,9,Pending,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0409,Rohan Das,Thane,Demo client 5,2026-09-01,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0421,Rohan Das,Thane,Demo client 5,2026-09-01,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0422,Anjali Rao,Thane,Demo client 5,2026-09-01,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0423,Kabir Mehta,Thane,Demo client 5,2026-09-01,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0424,Neha Kulkarni,Thane,Demo client 5,2026-09-01,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0425,Aarav Shah,Thane,Demo client 5,2026-09-01,Evening,9,present,14:00,22:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0426,Priya Nair,Thane,Demo client 5,2026-09-01,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0427,Imran Khan,Thane,Demo client 5,2026-09-01,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0428,Sneha Patil, THANE ,Demo client 5,2026-09-01,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0429,Rohan Das,Thane,Demo client 5,2026-09-01,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0001,Aarav Shah,Vikhroli,Demo client 1,2026-09-02,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0002,Priya Nair,Vikhroli,Demo client 1,2026-09-02,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+ EMP-0003 ,Imran Khan,Vikhroli,Demo client 1,2026-09-02,Day,9,Present,08:00,16:00,9,Pending,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0004,Sneha Patil,Vikhroli,Demo client 1,14/09/2026,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0005,Rohan Das,Vikhroli,Demo client 1,2026-09-02,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0006,Anjali Rao,Vikhroli,Demo client 1,2026-09-02,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0007,Kabir Mehta,Vikhroli,Demo client 1,2026-09-02,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0008,Neha Kulkarni,Vikhroli,Demo client 1,01/02/26,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0009,Aarav Shah,Vikhroli,Demo client 1,2026-09-02,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0021,Aarav Shah, VIKHROLI ,Demo client 1,2026-09-02,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0022,Priya Nair,Vikhroli,Demo client 1,2026-09-02,Evening,9,Present,14:00,22:00,9,Pending,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0023,Imran Khan,Vikhroli,Demo client 1,2026-09-02,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0024,Sneha Patil,Vikhroli,Demo client 1,2026-09-02,Evening,9,absent,14:00,22:00,0,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0025,Rohan Das,Vikhroli,Demo client 1,2026-09-02,Evening,9,Present,14:00,22:00,18,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0026,Anjali Rao,Vikhroli,Demo client 1,2026-09-02,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 1,Synthetic demonstration record,Breached
+EMP-0027,Kabir Mehta,Vikhroli,Demo client 1,2026-09-02,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0028,Neha Kulkarni,Vikhroli,Demo client 1,2026-09-02,Evening,9,Present,14:00,22:00,10,Pending,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0029,Aarav Shah,Vikhroli,Demo client 1,2026-09-02,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0101,Priya Nair,Andheri,Demo client 2,2026-09-02,Day,9,Absent,08:00,16:00,0,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0102,Imran Khan,Andheri,Demo client 2,2026-09-02,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0103,Sneha Patil, ANDHERI ,Demo client 2,2026-09-02,Day,9,Present,08:00,16:00,9,Pending,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0104,Rohan Das,Andheri,Demo client 2,2026-09-02,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0105,Anjali Rao,Andheri,Demo client 2,2026-09-02,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0106,Kabir Mehta,Andheri,Demo client 2,2026-09-02,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0107,Neha Kulkarni,Andheri,Demo client 2,2026-09-02,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+ EMP-0108 ,Aarav Shah,Andheri,Demo client 2,2026-09-02,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Breached
+EMP-0109,Priya Nair,Andheri,Demo client 2,2026-09-02,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0121,Priya Nair,Andheri,Demo client 2,2026-09-02,Evening,9,Present,14:00,22:00,8,Pending,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0122,Imran Khan,Andheri,Demo client 2,2026-09-02,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Breached
+EMP-0123,Sneha Patil,Andheri,Demo client 2,2026-09-02,Evening,9,present,14:00,22:00,8,Pending,0,Supervisor 2,Synthetic demonstration record,Breached
+EMP-0124,Rohan Das,Andheri,Demo client 2,2026-09-02,Evening,9,Present,14:00,22:00,9,Pending,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0125,Anjali Rao, ANDHERI ,Demo client 2,2026-09-02,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0126,Kabir Mehta,Andheri,Demo client 2,2026-09-02,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0127,Neha Kulkarni,Andheri,Demo client 2,2026-09-02,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0128,Aarav Shah,Andheri,Demo client 2,14/09/2026,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0129,Priya Nair,Andheri,Demo client 2,2026-09-02,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0201,Imran Khan,Lower Parel,Demo client 3,2026-09-02,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+,Sneha Patil,Lower Parel,Demo client 3,2026-09-02,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0203,Rohan Das,Lower Parel,Demo client 3,2026-09-02,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0204,Anjali Rao,Lower Parel,Demo client 3,2026-09-02,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0205,Kabir Mehta,Lower Parel,Demo client 3,2026-09-02,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0206,Neha Kulkarni,Lower Parel,Demo client 3,2026-09-02,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0207,Aarav Shah, LOWER PAREL ,Demo client 3,2026-09-02,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0208,Priya Nair,Lower Parel,Demo client 3,2026-09-02,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0209,Imran Khan,Lower Parel,Demo client 3,2026-09-02,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0221,Imran Khan,Lower Parel,Demo client 3,2026-09-02,Evening,9,Present,14:00,22:00,8,Completed,1,Supervisor 3,Synthetic demonstration record,Met
+EMP-0222,Sneha Patil,Lower Parel,Demo client 3,2026-09-02,Evening,9,present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0223,Rohan Das,,Demo client 3,2026-09-02,Evening,9,Present,14:00,22:00,9,Pending,1,Supervisor 3,Synthetic demonstration record,Met
+ EMP-0224 ,Anjali Rao,Lower Parel,Demo client 3,2026-09-02,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0225,Kabir Mehta,Lower Parel,Demo client 3,2026-02-30,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0226,Neha Kulkarni,Lower Parel,Demo client 3,2026-09-02,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0227,Aarav Shah,Lower Parel,Demo client 3,2026-09-02,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0228,Priya Nair,Lower Parel,Demo client 3,2026-09-02,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0229,Imran Khan, LOWER PAREL ,Demo client 3,2026-09-02,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0301,Sneha Patil,BKC,Demo client 4,2026-09-02,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0302,Rohan Das,BKC,Demo client 4,2026-09-02,Day,9,Present,08:00,16:00,10,Pending,1,Supervisor 4,Synthetic demonstration record,Met
+EMP-0303,Anjali Rao,BKC,Demo client 4,2026-09-02,Day,9,Present,08:00,16:00,8,Pending,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0304,Kabir Mehta,BKC,Demo client 4,2026-09-02,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0305,Neha Kulkarni,BKC,Demo client 4,2026-09-02,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0306,Aarav Shah,BKC,Demo client 4,2026-09-02,Day,9,Unknown,08:00,16:00,8,Pending,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0307,Priya Nair,BKC,Demo client 4,2026-09-02,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0308,Imran Khan,BKC,Demo client 4,2026-09-02,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0309,Sneha Patil,BKC,Demo client 4,2026-09-02,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0321,Sneha Patil,BKC,Demo client 4,2026-09-02,Evening,9,absent,14:00,22:00,0,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0322,Rohan Das, BKC ,Demo client 4,2026-09-02,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0323,Anjali Rao,BKC,Demo client 4,14/09/2026,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0324,Kabir Mehta,BKC,Demo client 4,2026-09-02,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0325,Neha Kulkarni,BKC,Demo client 4,2026-09-02,,9,Present,14:00,22:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0326,Aarav Shah,BKC,Demo client 4,2026-09-02,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0327,Priya Nair,BKC,Demo client 4,2026-09-02,Evening,9,Present,14:00,22:00,10,Pending,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0328,Imran Khan,BKC,Demo client 4,2026-09-02,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Breached
+ EMP-0329 ,Sneha Patil,BKC,Demo client 4,2026-09-02,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0401,Rohan Das,Thane,Demo client 5,2026-09-02,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0402,Anjali Rao,Thane,Demo client 5,2026-09-02,Day,9,Present,08:00,16:00,0,Completed,0,Supervisor 5,Synthetic demonstration record,Breached
+EMP-0403,Kabir Mehta,Thane,Demo client 5,2026-09-02,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Breached
+EMP-0404,Neha Kulkarni, THANE ,Demo client 5,2026-09-02,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0405,Aarav Shah,Thane,Demo client 5,2026-09-02,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0406,Priya Nair,Thane,Demo client 5,2026-09-02,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0407,Imran Khan,Thane,Demo client 5,2026-09-02,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0408,Sneha Patil,Thane,Demo client 5,2026-09-02,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0409,Rohan Das,Thane,Demo client 5,2026-09-02,Day,9,absent,08:00,16:00,0,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0421,Rohan Das,Thane,Demo client 5,2026-09-02,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0422,Anjali Rao,Thane,Demo client 5,2026-09-02,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0423,Kabir Mehta,Thane,Demo client 5,2026-09-02,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0424,Neha Kulkarni,Thane,Demo client 5,2026-09-02,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0425,Aarav Shah,Thane,Demo client 5,2026-09-02,Evening,9,Present,14:00,22:00,8,Completed,1,Supervisor 5,Synthetic demonstration record,Met
+EMP-0426,Priya Nair, THANE ,Demo client 5,2026-09-02,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0427,Imran Khan,Thane,Demo client 5,2026-09-02,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0428,Sneha Patil,Thane,Demo client 5,2026-09-02,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0429,Rohan Das,Thane,Demo client 5,2026-09-02,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0001,Aarav Shah,Vikhroli,Demo client 1,2026-09-03,Day,9,Present,08:00,16:00,10,Pending,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0002,Priya Nair,Vikhroli,Demo client 1,2026-09-03,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0003,Imran Khan,Vikhroli,Demo client 1,2026-09-03,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0004,Sneha Patil,Vikhroli,Demo client 1,2026-09-03,Day,9,Absent,08:00,16:00,0,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+ EMP-0005 ,Rohan Das,Vikhroli,Demo client 1,2026-09-03,Day,9,Absent,08:00,16:00,0,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0006,Anjali Rao,Vikhroli,Demo client 1,2026-09-03,Day,9,Absent,08:00,16:00,0,Pending,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0007,Kabir Mehta,Vikhroli,Demo client 1,14/09/2026,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0008,Neha Kulkarni, VIKHROLI ,Demo client 1,2026-09-03,Day,9,present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0009,Aarav Shah,Vikhroli,Demo client 1,2026-09-03,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0021,Aarav Shah,Vikhroli,Demo client 1,2026-09-03,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0022,Priya Nair,Vikhroli,Demo client 1,2026-09-03,Evening,9,Present,14:00,22:00,9,Pending,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0023,Imran Khan,Vikhroli,Demo client 1,2026-09-03,Evening,9,Present,14:00,22:00,8,Pending,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0024,Sneha Patil,Vikhroli,Demo client 1,2026-09-03,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0025,Rohan Das,Vikhroli,Demo client 1,2026-09-03,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0026,Anjali Rao,Vikhroli,Demo client 1,01/02/26,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0027,Kabir Mehta,Vikhroli,Demo client 1,2026-09-03,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0028,Neha Kulkarni,Vikhroli,Demo client 1,2026-09-03,Evening,9,Present,14:00,22:00,9,Pending,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0029,Aarav Shah,Vikhroli,Demo client 1,2026-09-03,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0101,Priya Nair, ANDHERI ,Demo client 2,2026-09-03,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0102,Imran Khan,Andheri,Demo client 2,2026-09-03,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0103,Sneha Patil,Andheri,Demo client 2,2026-09-03,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0104,Rohan Das,Andheri,Demo client 2,2026-09-03,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0105,Anjali Rao,Andheri,Demo client 2,2026-09-03,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0106,Kabir Mehta,Andheri,Demo client 2,2026-09-03,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0107,Neha Kulkarni,Andheri,Demo client 2,2026-09-03,Day,9,present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0108,Aarav Shah,Andheri,Demo client 2,2026-09-03,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0109,Priya Nair,Andheri,Demo client 2,2026-09-03,Day,9,Present,08:00,16:00,18,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+ EMP-0121 ,Priya Nair,Andheri,Demo client 2,2026-09-03,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0122,Imran Khan,Andheri,Demo client 2,2026-09-03,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0123,Sneha Patil, ANDHERI ,Demo client 2,2026-09-03,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0124,Rohan Das,Andheri,Demo client 2,2026-09-03,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0125,Anjali Rao,Andheri,Demo client 2,2026-09-03,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0126,Kabir Mehta,Andheri,Demo client 2,2026-09-03,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0127,Neha Kulkarni,Andheri,Demo client 2,2026-09-03,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0128,Aarav Shah,Andheri,Demo client 2,2026-09-03,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Breached
+EMP-0129,Priya Nair,Andheri,Demo client 2,2026-09-03,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0201,Imran Khan,Lower Parel,Demo client 3,2026-09-03,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0202,Sneha Patil,Lower Parel,Demo client 3,14/09/2026,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0203,Rohan Das,Lower Parel,Demo client 3,2026-09-03,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0204,Anjali Rao,Lower Parel,Demo client 3,2026-09-03,Day,9,Present,08:00,16:00,8,Pending,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0205,Kabir Mehta, LOWER PAREL ,Demo client 3,2026-09-03,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0206,Neha Kulkarni,Lower Parel,Demo client 3,2026-09-03,Day,9,present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0207,Aarav Shah,Lower Parel,Demo client 3,2026-09-03,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0208,Priya Nair,Lower Parel,Demo client 3,2026-09-03,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 3,Synthetic demonstration record,Breached
+EMP-0209,Imran Khan,Lower Parel,Demo client 3,2026-09-03,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0221,Imran Khan,Lower Parel,Demo client 3,2026-09-03,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0222,Sneha Patil,Lower Parel,Demo client 3,2026-09-03,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0223,Rohan Das,Lower Parel,Demo client 3,2026-09-03,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0224,Anjali Rao,Lower Parel,Demo client 3,2026-09-03,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0225,Kabir Mehta,Lower Parel,Demo client 3,2026-09-03,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+ EMP-0226 ,Neha Kulkarni,Lower Parel,Demo client 3,2026-09-03,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0227,Aarav Shah, LOWER PAREL ,Demo client 3,2026-09-03,Evening,9,Present,14:00,22:00,8,Pending,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0228,Priya Nair,Lower Parel,Demo client 3,2026-09-03,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0229,Imran Khan,Lower Parel,Demo client 3,2026-09-03,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0301,Sneha Patil,BKC,Demo client 4,2026-09-03,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0302,Rohan Das,BKC,Demo client 4,2026-09-03,Day,9,Present,08:00,16:00,8,Pending,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0303,Anjali Rao,BKC,Demo client 4,2026-09-03,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0304,Kabir Mehta,BKC,Demo client 4,2026-09-03,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0305,Neha Kulkarni,BKC,Demo client 4,2026-09-03,Day,9,present,08:00,16:00,10,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0306,Aarav Shah,BKC,Demo client 4,2026-09-03,Day,9,Present,08:00,16:00,8,Pending,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0307,Priya Nair,BKC,Demo client 4,2026-09-03,Day,9,Present,08:00,16:00,8,Pending,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0308,Imran Khan,BKC,Demo client 4,2026-09-03,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0309,Sneha Patil, BKC ,Demo client 4,2026-09-03,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0321,Sneha Patil,BKC,Demo client 4,2026-09-03,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0322,Rohan Das,BKC,Demo client 4,2026-09-03,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0323,Anjali Rao,BKC,Demo client 4,2026-09-03,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0324,Kabir Mehta,BKC,Demo client 4,2026-09-03,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0325,Neha Kulkarni,BKC,Demo client 4,2026-09-03,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0326,Aarav Shah,BKC,Demo client 4,14/09/2026,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0327,Priya Nair,BKC,Demo client 4,2026-09-03,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0328,Imran Khan,BKC,Demo client 4,2026-09-03,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0329,Sneha Patil,BKC,Demo client 4,2026-09-03,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0401,Rohan Das,Thane,Demo client 5,2026-09-03,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+ EMP-0402 ,Anjali Rao, THANE ,Demo client 5,2026-09-03,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+,Kabir Mehta,Thane,Demo client 5,2026-09-03,Day,9,Present,08:00,16:00,8,Pending,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0404,Neha Kulkarni,Thane,Demo client 5,2026-09-03,Day,9,present,08:00,16:00,10,Pending,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0405,Aarav Shah,Thane,Demo client 5,2026-09-03,Day,9,Present,08:00,16:00,8,Pending,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0406,Priya Nair,Thane,Demo client 5,2026-09-03,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0407,Imran Khan,Thane,Demo client 5,2026-09-03,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0408,Sneha Patil,Thane,Demo client 5,2026-09-03,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0409,Rohan Das,Thane,Demo client 5,2026-09-03,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0421,Rohan Das,Thane,Demo client 5,2026-09-03,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0422,Anjali Rao,Thane,Demo client 5,2026-09-03,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0423,Kabir Mehta,Thane,Demo client 5,2026-09-03,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0424,Neha Kulkarni, THANE ,Demo client 5,2026-09-03,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0425,Aarav Shah,Thane,Demo client 5,2026-09-03,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0426,Priya Nair,Thane,Demo client 5,2026-09-03,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0427,Imran Khan,Thane,Demo client 5,2026-09-03,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0428,Sneha Patil,Thane,Demo client 5,2026-09-03,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0429,Rohan Das,Thane,Demo client 5,2026-09-03,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0001,Aarav Shah,Vikhroli,Demo client 1,2026-09-04,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0002,Priya Nair,Vikhroli,Demo client 1,2026-09-04,Day,9,Present,08:00,16:00,10,Pending,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0003,Imran Khan,Vikhroli,Demo client 1,2026-09-04,Day,9,present,08:00,16:00,10,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0004,Sneha Patil,Vikhroli,Demo client 1,2026-09-04,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0005,Rohan Das,,Demo client 1,2026-09-04,Day,9,Absent,08:00,16:00,0,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0006,Anjali Rao, VIKHROLI ,Demo client 1,2026-09-04,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+ EMP-0007 ,Kabir Mehta,Vikhroli,Demo client 1,2026-09-04,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0008,Neha Kulkarni,Vikhroli,Demo client 1,2026-09-04,Day,9,Present,08:00,16:00,10,Pending,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0009,Aarav Shah,Vikhroli,Demo client 1,2026-02-30,Day,9,Absent,08:00,16:00,0,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0021,Aarav Shah,Vikhroli,Demo client 1,14/09/2026,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0022,Priya Nair,Vikhroli,Demo client 1,2026-09-04,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0023,Imran Khan,Vikhroli,Demo client 1,2026-09-04,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0024,Sneha Patil,Vikhroli,Demo client 1,2026-09-04,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0025,Rohan Das,Vikhroli,Demo client 1,2026-09-04,Evening,9,Present,14:00,22:00,9,Pending,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0026,Anjali Rao,Vikhroli,Demo client 1,2026-09-04,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0027,Kabir Mehta,Vikhroli,Demo client 1,2026-09-04,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0028,Neha Kulkarni, VIKHROLI ,Demo client 1,2026-09-04,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0029,Aarav Shah,Vikhroli,Demo client 1,2026-09-04,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0101,Priya Nair,Andheri,Demo client 2,2026-09-04,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0102,Imran Khan,Andheri,Demo client 2,2026-09-04,Day,9,present,08:00,16:00,10,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0103,Sneha Patil,Andheri,Demo client 2,2026-09-04,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0104,Rohan Das,Andheri,Demo client 2,01/02/26,Day,9,Present,08:00,16:00,9,Pending,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0105,Anjali Rao,Andheri,Demo client 2,2026-09-04,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0106,Kabir Mehta,Andheri,Demo client 2,2026-09-04,Day,9,Present,08:00,16:00,8,Completed,1,Supervisor 2,Synthetic demonstration record,Met
+EMP-0107,Neha Kulkarni,Andheri,Demo client 2,2026-09-04,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0108,Aarav Shah,Andheri,Demo client 2,2026-09-04,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0109,Priya Nair,Andheri,Demo client 2,2026-09-04,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0121,Priya Nair, ANDHERI ,Demo client 2,2026-09-04,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0122,Imran Khan,Andheri,Demo client 2,2026-09-04,Evening,9,Unknown,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+ EMP-0123 ,Sneha Patil,Andheri,Demo client 2,2026-09-04,Evening,9,Present,14:00,22:00,9,Completed,1,Supervisor 2,Synthetic demonstration record,Met
+EMP-0124,Rohan Das,Andheri,Demo client 2,2026-09-04,Evening,9,Present,14:00,22:00,8,Completed,1,Supervisor 2,Synthetic demonstration record,Met
+EMP-0125,Anjali Rao,Andheri,Demo client 2,2026-09-04,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0126,Kabir Mehta,Andheri,Demo client 2,2026-09-04,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0127,Neha Kulkarni,Andheri,Demo client 2,2026-09-04,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0128,Aarav Shah,Andheri,Demo client 2,2026-09-04,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0129,Priya Nair,Andheri,Demo client 2,2026-09-04,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0201,Imran Khan,Lower Parel,Demo client 3,2026-09-04,Day,9,absent,08:00,16:00,0,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0202,Sneha Patil,Lower Parel,Demo client 3,2026-09-04,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0203,Rohan Das, LOWER PAREL ,Demo client 3,2026-09-04,Day,9,Present,08:00,16:00,9,Pending,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0204,Anjali Rao,Lower Parel,Demo client 3,2026-09-04,Day,9,Present,08:00,16:00,18,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0205,Kabir Mehta,Lower Parel,Demo client 3,14/09/2026,Day,9,Present,08:00,16:00,8,Pending,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0206,Neha Kulkarni,Lower Parel,Demo client 3,2026-09-04,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0207,Aarav Shah,Lower Parel,Demo client 3,2026-09-04,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0208,Priya Nair,Lower Parel,Demo client 3,2026-09-04,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0209,Imran Khan,Lower Parel,Demo client 3,2026-09-04,,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0221,Imran Khan,Lower Parel,Demo client 3,2026-09-04,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0222,Sneha Patil,Lower Parel,Demo client 3,2026-09-04,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0223,Rohan Das,Lower Parel,Demo client 3,2026-09-04,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0224,Anjali Rao,Lower Parel,Demo client 3,2026-09-04,Evening,9,Present,14:00,22:00,8,Pending,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0225,Kabir Mehta, LOWER PAREL ,Demo client 3,2026-09-04,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0226,Neha Kulkarni,Lower Parel,Demo client 3,2026-09-04,Evening,9,Present,14:00,22:00,8,Pending,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0227,Aarav Shah,Lower Parel,Demo client 3,2026-09-04,Evening,9,Present,14:00,22:00,10,Pending,0,Supervisor 3,Synthetic demonstration record,Met
+ EMP-0228 ,Priya Nair,Lower Parel,Demo client 3,2026-09-04,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0229,Imran Khan,Lower Parel,Demo client 3,2026-09-04,Evening,9,present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0301,Sneha Patil,BKC,Demo client 4,2026-09-04,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0302,Rohan Das,BKC,Demo client 4,2026-09-04,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0303,Anjali Rao,BKC,Demo client 4,2026-09-04,Day,9,Present,08:00,16:00,0,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0304,Kabir Mehta,BKC,Demo client 4,2026-09-04,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0305,Neha Kulkarni,BKC,Demo client 4,2026-09-04,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0306,Aarav Shah,BKC,Demo client 4,2026-09-04,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0307,Priya Nair, BKC ,Demo client 4,2026-09-04,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0308,Imran Khan,BKC,Demo client 4,2026-09-04,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0309,Sneha Patil,BKC,Demo client 4,2026-09-04,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0321,Sneha Patil,BKC,Demo client 4,2026-09-04,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0322,Rohan Das,BKC,Demo client 4,2026-09-04,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0323,Anjali Rao,BKC,Demo client 4,2026-09-04,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0324,Kabir Mehta,BKC,Demo client 4,2026-09-04,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0325,Neha Kulkarni,BKC,Demo client 4,2026-09-04,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0326,Aarav Shah,BKC,Demo client 4,2026-09-04,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0327,Priya Nair,BKC,Demo client 4,2026-09-04,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0328,Imran Khan,BKC,Demo client 4,2026-09-04,Evening,9,present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0329,Sneha Patil, BKC ,Demo client 4,14/09/2026,Evening,9,Present,14:00,22:00,10,Pending,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0401,Rohan Das,Thane,Demo client 5,2026-09-04,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0402,Anjali Rao,Thane,Demo client 5,2026-09-04,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0403,Kabir Mehta,Thane,Demo client 5,2026-09-04,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+ EMP-0404 ,Neha Kulkarni,Thane,Demo client 5,2026-09-04,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0405,Aarav Shah,Thane,Demo client 5,2026-09-04,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0406,Priya Nair,Thane,Demo client 5,2026-09-04,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0407,Imran Khan,Thane,Demo client 5,2026-09-04,Day,9,Present,08:00,16:00,9,Pending,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0408,Sneha Patil,Thane,Demo client 5,2026-09-04,Day,9,Absent,08:00,16:00,0,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0409,Rohan Das,Thane,Demo client 5,2026-09-04,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0421,Rohan Das,Thane,Demo client 5,2026-09-04,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0422,Anjali Rao, THANE ,Demo client 5,2026-09-04,Evening,9,Present,14:00,22:00,8,Pending,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0423,Kabir Mehta,Thane,Demo client 5,2026-09-04,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0424,Neha Kulkarni,Thane,Demo client 5,2026-09-04,Evening,9,Present,14:00,22:00,9,Completed,1,Supervisor 5,Synthetic demonstration record,Met
+EMP-0425,Aarav Shah,Thane,Demo client 5,2026-09-04,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0426,Priya Nair,Thane,Demo client 5,2026-09-04,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0427,Imran Khan,Thane,Demo client 5,2026-09-04,Evening,9,present,14:00,22:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0428,Sneha Patil,Thane,Demo client 5,2026-09-04,Evening,9,Present,14:00,22:00,8,Pending,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0429,Rohan Das,Thane,Demo client 5,2026-09-04,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0001,Aarav Shah,Vikhroli,Demo client 1,2026-09-05,Day,9,Present,08:00,16:00,10,Pending,1,Supervisor 1,Synthetic demonstration record,Met
+EMP-0002,Priya Nair,Vikhroli,Demo client 1,2026-09-05,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0003,Imran Khan,Vikhroli,Demo client 1,2026-09-05,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0004,Sneha Patil, VIKHROLI ,Demo client 1,2026-09-05,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0005,Rohan Das,Vikhroli,Demo client 1,2026-09-05,Day,9,Present,08:00,16:00,8,Completed,1,Supervisor 1,Synthetic demonstration record,Met
+EMP-0006,Anjali Rao,Vikhroli,Demo client 1,2026-09-05,Day,9,Absent,08:00,16:00,0,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0007,Kabir Mehta,Vikhroli,Demo client 1,2026-09-05,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0008,Neha Kulkarni,Vikhroli,Demo client 1,2026-09-05,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+ EMP-0009 ,Aarav Shah,Vikhroli,Demo client 1,2026-09-05,Day,9,Absent,08:00,16:00,0,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0021,Aarav Shah,Vikhroli,Demo client 1,2026-09-05,Evening,9,Absent,14:00,22:00,0,Completed,1,Supervisor 1,Synthetic demonstration record,Met
+EMP-0022,Priya Nair,Vikhroli,Demo client 1,2026-09-05,Evening,9,Absent,14:00,22:00,0,Pending,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0023,Imran Khan,Vikhroli,Demo client 1,2026-09-05,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0024,Sneha Patil,Vikhroli,Demo client 1,14/09/2026,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0025,Rohan Das,Vikhroli,Demo client 1,2026-09-05,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0026,Anjali Rao, VIKHROLI ,Demo client 1,2026-09-05,Evening,9,present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0027,Kabir Mehta,Vikhroli,Demo client 1,2026-09-05,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0028,Neha Kulkarni,Vikhroli,Demo client 1,2026-09-05,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0029,Aarav Shah,Vikhroli,Demo client 1,2026-09-05,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0101,Priya Nair,Andheri,Demo client 2,2026-09-05,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0102,Imran Khan,Andheri,Demo client 2,2026-09-05,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0103,Sneha Patil,Andheri,Demo client 2,2026-09-05,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+,Rohan Das,Andheri,Demo client 2,2026-09-05,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0105,Anjali Rao,Andheri,Demo client 2,2026-09-05,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0106,Kabir Mehta,Andheri,Demo client 2,2026-09-05,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0107,Neha Kulkarni,Andheri,Demo client 2,2026-09-05,Day,9,Present,08:00,16:00,9,Pending,0,Supervisor 2,Synthetic demonstration record,Breached
+EMP-0108,Aarav Shah, ANDHERI ,Demo client 2,2026-09-05,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0109,Priya Nair,Andheri,Demo client 2,2026-09-05,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0121,Priya Nair,Andheri,Demo client 2,2026-09-05,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0122,Imran Khan,Andheri,Demo client 2,01/02/26,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0123,Sneha Patil,Andheri,Demo client 2,2026-09-05,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0124,Rohan Das,Andheri,Demo client 2,2026-09-05,Evening,9,Present,14:00,22:00,8,Completed,1,Supervisor 2,Synthetic demonstration record,Met
+ EMP-0125 ,Anjali Rao,Andheri,Demo client 2,2026-09-05,Evening,9,present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0126,Kabir Mehta,Andheri,Demo client 2,2026-09-05,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0127,Neha Kulkarni,Andheri,Demo client 2,2026-09-05,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0128,Aarav Shah,Andheri,Demo client 2,2026-09-05,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0129,Priya Nair,Andheri,Demo client 2,2026-09-05,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0201,Imran Khan, LOWER PAREL ,Demo client 3,2026-09-05,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0202,Sneha Patil,Lower Parel,Demo client 3,2026-09-05,Day,9,Present,08:00,16:00,8,Pending,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0203,Rohan Das,Lower Parel,Demo client 3,2026-09-05,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Breached
+EMP-0204,Anjali Rao,Lower Parel,Demo client 3,2026-09-05,Day,9,Present,08:00,16:00,8,Pending,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0205,Kabir Mehta,Lower Parel,Demo client 3,2026-09-05,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0206,Neha Kulkarni,Lower Parel,Demo client 3,2026-09-05,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0207,Aarav Shah,Lower Parel,Demo client 3,2026-09-05,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0208,Priya Nair,Lower Parel,Demo client 3,14/09/2026,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0209,Imran Khan,Lower Parel,Demo client 3,2026-09-05,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0221,Imran Khan,Lower Parel,Demo client 3,2026-09-05,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0222,Sneha Patil,Lower Parel,Demo client 3,2026-09-05,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0223,Rohan Das, LOWER PAREL ,Demo client 3,2026-09-05,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0224,Anjali Rao,Lower Parel,Demo client 3,2026-09-05,Evening,9,present,14:00,22:00,9,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0225,Kabir Mehta,Lower Parel,Demo client 3,2026-09-05,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0226,Neha Kulkarni,Lower Parel,Demo client 3,2026-09-05,Evening,9,Absent,14:00,22:00,0,Completed,1,Supervisor 3,Synthetic demonstration record,Met
+EMP-0227,Aarav Shah,,Demo client 3,2026-09-05,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0228,Priya Nair,Lower Parel,Demo client 3,2026-09-05,Evening,9,Absent,14:00,22:00,18,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0229,Imran Khan,Lower Parel,Demo client 3,2026-09-05,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+ EMP-0301 ,Sneha Patil,BKC,Demo client 4,2026-09-05,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0302,Rohan Das,BKC,Demo client 4,2026-09-05,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0303,Anjali Rao,BKC,Demo client 4,2026-09-05,Day,9,Present,08:00,16:00,8,Pending,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0304,Kabir Mehta,BKC,Demo client 4,2026-02-30,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0305,Neha Kulkarni, BKC ,Demo client 4,2026-09-05,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0306,Aarav Shah,BKC,Demo client 4,2026-09-05,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0307,Priya Nair,BKC,Demo client 4,2026-09-05,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0308,Imran Khan,BKC,Demo client 4,2026-09-05,Day,9,Present,08:00,16:00,8,Pending,1,Supervisor 4,Synthetic demonstration record,Met
+EMP-0309,Sneha Patil,BKC,Demo client 4,2026-09-05,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0321,Sneha Patil,BKC,Demo client 4,2026-09-05,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0322,Rohan Das,BKC,Demo client 4,2026-09-05,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0323,Anjali Rao,BKC,Demo client 4,2026-09-05,Evening,9,present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0324,Kabir Mehta,BKC,Demo client 4,2026-09-05,Evening,9,Present,14:00,22:00,8,Pending,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0325,Neha Kulkarni,BKC,Demo client 4,2026-09-05,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0326,Aarav Shah,BKC,Demo client 4,2026-09-05,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0327,Priya Nair, BKC ,Demo client 4,2026-09-05,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0328,Imran Khan,BKC,Demo client 4,2026-09-05,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0329,Sneha Patil,BKC,Demo client 4,2026-09-05,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0401,Rohan Das,Thane,Demo client 5,2026-09-05,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0402,Anjali Rao,Thane,Demo client 5,2026-09-05,Day,9,Present,08:00,16:00,8,Pending,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0403,Kabir Mehta,Thane,Demo client 5,14/09/2026,Day,9,Absent,08:00,16:00,0,Pending,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0404,Neha Kulkarni,Thane,Demo client 5,2026-09-05,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0405,Aarav Shah,Thane,Demo client 5,2026-09-05,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+ EMP-0406 ,Priya Nair,Thane,Demo client 5,2026-09-05,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0407,Imran Khan,Thane,Demo client 5,2026-09-05,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0408,Sneha Patil,Thane,Demo client 5,2026-09-05,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0409,Rohan Das, THANE ,Demo client 5,2026-09-05,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0421,Rohan Das,Thane,Demo client 5,2026-09-05,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0422,Anjali Rao,Thane,Demo client 5,2026-09-05,Evening,9,present,14:00,22:00,10,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0423,Kabir Mehta,Thane,Demo client 5,2026-09-05,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0424,Neha Kulkarni,Thane,Demo client 5,2026-09-05,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0425,Aarav Shah,Thane,Demo client 5,2026-09-05,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0426,Priya Nair,Thane,Demo client 5,2026-09-05,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0427,Imran Khan,Thane,Demo client 5,2026-09-05,Evening,9,Unknown,14:00,22:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0428,Sneha Patil,Thane,Demo client 5,2026-09-05,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0429,Rohan Das,Thane,Demo client 5,2026-09-05,Evening,9,Present,14:00,22:00,8,Pending,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0001,Aarav Shah,Vikhroli,Demo client 1,2026-09-06,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 1,Synthetic demonstration record,Breached
+EMP-0002,Priya Nair, VIKHROLI ,Demo client 1,2026-09-06,Day,9,Present,08:00,16:00,9,Pending,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0003,Imran Khan,Vikhroli,Demo client 1,2026-09-06,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0004,Sneha Patil,Vikhroli,Demo client 1,2026-09-06,Day,9,Present,08:00,16:00,8,Pending,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0005,Rohan Das,Vikhroli,Demo client 1,2026-09-06,Day,9,Absent,08:00,16:00,0,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0006,Anjali Rao,Vikhroli,Demo client 1,2026-09-06,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0007,Kabir Mehta,Vikhroli,Demo client 1,2026-09-06,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0008,Neha Kulkarni,Vikhroli,Demo client 1,2026-09-06,Day,9,Present,08:00,16:00,8,Pending,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0009,Aarav Shah,Vikhroli,Demo client 1,2026-09-06,Day,9,Absent,08:00,16:00,0,Pending,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0021,Aarav Shah,Vikhroli,Demo client 1,2026-09-06,Evening,9,present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+ EMP-0022 ,Priya Nair,Vikhroli,Demo client 1,2026-09-06,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0023,Imran Khan,Vikhroli,Demo client 1,2026-09-06,Evening,9,Present,14:00,22:00,8,Pending,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0024,Sneha Patil, VIKHROLI ,Demo client 1,2026-09-06,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0025,Rohan Das,Vikhroli,Demo client 1,2026-09-06,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0026,Anjali Rao,Vikhroli,Demo client 1,2026-09-06,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0027,Kabir Mehta,Vikhroli,Demo client 1,14/09/2026,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0028,Neha Kulkarni,Vikhroli,Demo client 1,2026-09-06,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0029,Aarav Shah,Vikhroli,Demo client 1,2026-09-06,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0101,Priya Nair,Andheri,Demo client 2,2026-09-06,Day,9,Present,08:00,16:00,8,Pending,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0102,Imran Khan,Andheri,Demo client 2,2026-09-06,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0103,Sneha Patil,Andheri,Demo client 2,2026-09-06,Day,9,Present,08:00,16:00,9,Pending,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0104,Rohan Das,Andheri,Demo client 2,2026-09-06,,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0105,Anjali Rao,Andheri,Demo client 2,2026-09-06,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 2,Synthetic demonstration record,Breached
+EMP-0106,Kabir Mehta, ANDHERI ,Demo client 2,2026-09-06,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0107,Neha Kulkarni,Andheri,Demo client 2,2026-09-06,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 2,Synthetic demonstration record,Breached
+EMP-0108,Aarav Shah,Andheri,Demo client 2,2026-09-06,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0109,Priya Nair,Andheri,Demo client 2,2026-09-06,Day,9,absent,08:00,16:00,0,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0121,Priya Nair,Andheri,Demo client 2,2026-09-06,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0122,Imran Khan,Andheri,Demo client 2,2026-09-06,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0123,Sneha Patil,Andheri,Demo client 2,2026-09-06,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0124,Rohan Das,Andheri,Demo client 2,2026-09-06,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0125,Anjali Rao,Andheri,Demo client 2,2026-09-06,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0126,Kabir Mehta,Andheri,Demo client 2,2026-09-06,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+ EMP-0127 ,Neha Kulkarni,Andheri,Demo client 2,2026-09-06,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0128,Aarav Shah, ANDHERI ,Demo client 2,2026-09-06,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0129,Priya Nair,Andheri,Demo client 2,01/02/26,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0201,Imran Khan,Lower Parel,Demo client 3,2026-09-06,Day,9,Present,08:00,16:00,8,Pending,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0202,Sneha Patil,Lower Parel,Demo client 3,2026-09-06,Day,9,Present,08:00,16:00,10,Pending,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0203,Rohan Das,Lower Parel,Demo client 3,2026-09-06,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0204,Anjali Rao,Lower Parel,Demo client 3,2026-09-06,Day,9,Present,08:00,16:00,0,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0205,Kabir Mehta,Lower Parel,Demo client 3,2026-09-06,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0206,Neha Kulkarni,Lower Parel,Demo client 3,2026-09-06,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0207,Aarav Shah,Lower Parel,Demo client 3,2026-09-06,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0208,Priya Nair,Lower Parel,Demo client 3,2026-09-06,Day,9,present,08:00,16:00,8,Pending,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0209,Imran Khan,Lower Parel,Demo client 3,2026-09-06,Day,9,Present,08:00,16:00,10,Pending,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0221,Imran Khan, LOWER PAREL ,Demo client 3,2026-09-06,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Breached
+EMP-0222,Sneha Patil,Lower Parel,Demo client 3,14/09/2026,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0223,Rohan Das,Lower Parel,Demo client 3,2026-09-06,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0224,Anjali Rao,Lower Parel,Demo client 3,2026-09-06,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0225,Kabir Mehta,Lower Parel,Demo client 3,2026-09-06,Evening,9,Present,14:00,22:00,8,Pending,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0226,Neha Kulkarni,Lower Parel,Demo client 3,2026-09-06,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0227,Aarav Shah,Lower Parel,Demo client 3,2026-09-06,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0228,Priya Nair,Lower Parel,Demo client 3,2026-09-06,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0229,Imran Khan,Lower Parel,Demo client 3,2026-09-06,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0301,Sneha Patil,BKC,Demo client 4,2026-09-06,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0302,Rohan Das,BKC,Demo client 4,2026-09-06,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+ EMP-0303 ,Anjali Rao, BKC ,Demo client 4,2026-09-06,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0304,Kabir Mehta,BKC,Demo client 4,2026-09-06,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+,Neha Kulkarni,BKC,Demo client 4,2026-09-06,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0306,Aarav Shah,BKC,Demo client 4,2026-09-06,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0307,Priya Nair,BKC,Demo client 4,2026-09-06,Day,9,present,08:00,16:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0308,Imran Khan,BKC,Demo client 4,2026-09-06,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0309,Sneha Patil,BKC,Demo client 4,2026-09-06,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0321,Sneha Patil,BKC,Demo client 4,2026-09-06,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0322,Rohan Das,BKC,Demo client 4,2026-09-06,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0323,Anjali Rao,BKC,Demo client 4,2026-09-06,Evening,9,Present,14:00,22:00,18,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0324,Kabir Mehta,BKC,Demo client 4,2026-09-06,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0325,Neha Kulkarni, BKC ,Demo client 4,2026-09-06,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0326,Aarav Shah,BKC,Demo client 4,2026-09-06,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Breached
+EMP-0327,Priya Nair,BKC,Demo client 4,2026-09-06,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0328,Imran Khan,BKC,Demo client 4,2026-09-06,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0329,Sneha Patil,BKC,Demo client 4,2026-09-06,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0401,Rohan Das,Thane,Demo client 5,2026-09-06,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0402,Anjali Rao,Thane,Demo client 5,2026-09-06,Day,9,Present,08:00,16:00,8,Completed,1,Supervisor 5,Synthetic demonstration record,Met
+EMP-0403,Kabir Mehta,Thane,Demo client 5,2026-09-06,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0404,Neha Kulkarni,Thane,Demo client 5,2026-09-06,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0405,Aarav Shah,Thane,Demo client 5,2026-09-06,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0406,Priya Nair,Thane,Demo client 5,14/09/2026,Day,9,absent,08:00,16:00,0,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0407,Imran Khan, THANE ,Demo client 5,2026-09-06,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+ EMP-0408 ,Sneha Patil,Thane,Demo client 5,2026-09-06,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0409,Rohan Das,Thane,Demo client 5,2026-09-06,Day,9,Absent,08:00,16:00,0,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0421,Rohan Das,Thane,Demo client 5,2026-09-06,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0422,Anjali Rao,Thane,Demo client 5,2026-09-06,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0423,Kabir Mehta,Thane,Demo client 5,2026-09-06,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0424,Neha Kulkarni,Thane,Demo client 5,2026-09-06,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0425,Aarav Shah,Thane,Demo client 5,2026-09-06,Evening,9,Present,14:00,22:00,10,Pending,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0426,Priya Nair,Thane,Demo client 5,2026-09-06,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0427,Imran Khan,Thane,Demo client 5,2026-09-06,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0428,Sneha Patil,Thane,Demo client 5,2026-09-06,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0429,Rohan Das, THANE ,Demo client 5,2026-09-06,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0001,Aarav Shah,Vikhroli,Demo client 1,2026-09-07,Day,9,Present,08:00,16:00,9,Pending,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0002,Priya Nair,Vikhroli,Demo client 1,2026-09-07,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0003,Imran Khan,Vikhroli,Demo client 1,2026-09-07,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0004,Sneha Patil,Vikhroli,Demo client 1,2026-09-07,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0005,Rohan Das,Vikhroli,Demo client 1,2026-09-07,Day,9,present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0006,Anjali Rao,Vikhroli,Demo client 1,2026-09-07,Day,9,Absent,08:00,16:00,0,Pending,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0007,Kabir Mehta,Vikhroli,Demo client 1,2026-09-07,Day,9,Present,08:00,16:00,10,Completed,1,Supervisor 1,Synthetic demonstration record,Met
+EMP-0008,Neha Kulkarni,Vikhroli,Demo client 1,2026-09-07,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0009,Aarav Shah,,Demo client 1,2026-09-07,Day,9,Absent,08:00,16:00,0,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0021,Aarav Shah,Vikhroli,Demo client 1,2026-09-07,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0022,Priya Nair, VIKHROLI ,Demo client 1,2026-09-07,Evening,9,Present,14:00,22:00,8,Pending,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0023,Imran Khan,Vikhroli,Demo client 1,2026-09-07,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+ EMP-0024 ,Sneha Patil,Vikhroli,Demo client 1,2026-09-07,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0025,Rohan Das,Vikhroli,Demo client 1,2026-09-07,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0026,Anjali Rao,Vikhroli,Demo client 1,2026-09-07,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0027,Kabir Mehta,Vikhroli,Demo client 1,2026-09-07,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0028,Neha Kulkarni,Vikhroli,Demo client 1,2026-02-30,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0029,Aarav Shah,Vikhroli,Demo client 1,2026-09-07,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0101,Priya Nair,Andheri,Demo client 2,14/09/2026,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0102,Imran Khan,Andheri,Demo client 2,2026-09-07,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0103,Sneha Patil,Andheri,Demo client 2,2026-09-07,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0104,Rohan Das, ANDHERI ,Demo client 2,2026-09-07,Day,9,present,08:00,16:00,8,Pending,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0105,Anjali Rao,Andheri,Demo client 2,2026-09-07,Day,9,Absent,08:00,16:00,0,Pending,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0106,Kabir Mehta,Andheri,Demo client 2,2026-09-07,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0107,Neha Kulkarni,Andheri,Demo client 2,2026-09-07,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0108,Aarav Shah,Andheri,Demo client 2,2026-09-07,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0109,Priya Nair,Andheri,Demo client 2,2026-09-07,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0121,Priya Nair,Andheri,Demo client 2,2026-09-07,Evening,9,Present,14:00,22:00,8,Pending,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0122,Imran Khan,Andheri,Demo client 2,2026-09-07,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0123,Sneha Patil,Andheri,Demo client 2,2026-09-07,Evening,9,Absent,14:00,22:00,0,Completed,1,Supervisor 2,Synthetic demonstration record,Met
+EMP-0124,Rohan Das,Andheri,Demo client 2,2026-09-07,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0125,Anjali Rao,Andheri,Demo client 2,2026-09-07,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0126,Kabir Mehta, ANDHERI ,Demo client 2,2026-09-07,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0127,Neha Kulkarni,Andheri,Demo client 2,2026-09-07,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0128,Aarav Shah,Andheri,Demo client 2,2026-09-07,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+ EMP-0129 ,Priya Nair,Andheri,Demo client 2,2026-09-07,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Breached
+EMP-0201,Imran Khan,Lower Parel,Demo client 3,2026-09-07,Day,9,Present,08:00,16:00,8,Pending,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0202,Sneha Patil,Lower Parel,Demo client 3,2026-09-07,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0203,Rohan Das,Lower Parel,Demo client 3,2026-09-07,Day,9,present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0204,Anjali Rao,Lower Parel,Demo client 3,2026-09-07,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0205,Kabir Mehta,Lower Parel,Demo client 3,2026-09-07,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0206,Neha Kulkarni,Lower Parel,Demo client 3,2026-09-07,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0207,Aarav Shah,Lower Parel,Demo client 3,01/02/26,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0208,Priya Nair, LOWER PAREL ,Demo client 3,2026-09-07,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0209,Imran Khan,Lower Parel,Demo client 3,2026-09-07,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 3,Synthetic demonstration record,Breached
+EMP-0221,Imran Khan,Lower Parel,Demo client 3,2026-09-07,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0222,Sneha Patil,Lower Parel,Demo client 3,2026-09-07,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0223,Rohan Das,Lower Parel,Demo client 3,2026-09-07,Evening,9,Present,14:00,22:00,8,Pending,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0224,Anjali Rao,Lower Parel,Demo client 3,2026-09-07,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0225,Kabir Mehta,Lower Parel,Demo client 3,14/09/2026,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0226,Neha Kulkarni,Lower Parel,Demo client 3,2026-09-07,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0227,Aarav Shah,Lower Parel,Demo client 3,2026-09-07,Evening,9,Present,14:00,22:00,9,Pending,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0228,Priya Nair,Lower Parel,Demo client 3,2026-09-07,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0229,Imran Khan,Lower Parel,Demo client 3,2026-09-07,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0301,Sneha Patil, BKC ,Demo client 4,2026-09-07,Day,9,Present,08:00,16:00,10,Pending,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0302,Rohan Das,BKC,Demo client 4,2026-09-07,Day,9,present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0303,Anjali Rao,BKC,Demo client 4,2026-09-07,Day,9,Unknown,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0304,Kabir Mehta,BKC,Demo client 4,2026-09-07,Day,9,Present,08:00,16:00,10,Pending,0,Supervisor 4,Synthetic demonstration record,Met
+ EMP-0305 ,Neha Kulkarni,BKC,Demo client 4,2026-09-07,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0306,Aarav Shah,BKC,Demo client 4,2026-09-07,Day,9,Present,08:00,16:00,8,Pending,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0307,Priya Nair,BKC,Demo client 4,2026-09-07,Day,9,Present,08:00,16:00,8,Pending,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0308,Imran Khan,BKC,Demo client 4,2026-09-07,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0309,Sneha Patil,BKC,Demo client 4,2026-09-07,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0321,Sneha Patil,BKC,Demo client 4,2026-09-07,Evening,9,Present,14:00,22:00,8,Pending,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0322,Rohan Das,BKC,Demo client 4,2026-09-07,Evening,9,Present,14:00,22:00,8,Pending,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0323,Anjali Rao, BKC ,Demo client 4,2026-09-07,Evening,9,Present,14:00,22:00,9,Pending,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0324,Kabir Mehta,BKC,Demo client 4,2026-09-07,Evening,9,Present,14:00,22:00,9,Pending,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0325,Neha Kulkarni,BKC,Demo client 4,2026-09-07,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0326,Aarav Shah,BKC,Demo client 4,2026-09-07,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0327,Priya Nair,BKC,Demo client 4,2026-09-07,Evening,9,Present,14:00,22:00,8,Pending,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0328,Imran Khan,BKC,Demo client 4,2026-09-07,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0329,Sneha Patil,BKC,Demo client 4,2026-09-07,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0401,Rohan Das,Thane,Demo client 5,2026-09-07,Day,9,present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0402,Anjali Rao,Thane,Demo client 5,2026-09-07,Day,9,Present,08:00,16:00,8,Completed,1,Supervisor 5,Synthetic demonstration record,Met
+EMP-0403,Kabir Mehta,Thane,Demo client 5,2026-09-07,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0404,Neha Kulkarni,Thane,Demo client 5,2026-09-07,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0405,Aarav Shah, THANE ,Demo client 5,2026-09-07,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0406,Priya Nair,Thane,Demo client 5,2026-09-07,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0407,Imran Khan,Thane,Demo client 5,2026-09-07,Day,9,Present,08:00,16:00,18,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0408,Sneha Patil,Thane,Demo client 5,2026-09-07,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0409,Rohan Das,Thane,Demo client 5,14/09/2026,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Breached
+ EMP-0421 ,Rohan Das,Thane,Demo client 5,2026-09-07,Evening,9,Absent,14:00,22:00,0,Completed,1,Supervisor 5,Synthetic demonstration record,Met
+EMP-0422,Anjali Rao,Thane,Demo client 5,2026-09-07,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0423,Kabir Mehta,Thane,Demo client 5,2026-09-07,Evening,9,Present,14:00,22:00,8,Pending,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0424,Neha Kulkarni,Thane,Demo client 5,2026-09-07,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0425,Aarav Shah,Thane,Demo client 5,2026-09-07,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0426,Priya Nair,Thane,Demo client 5,2026-09-07,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0427,Imran Khan, THANE ,Demo client 5,2026-09-07,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0428,Sneha Patil,Thane,Demo client 5,2026-09-07,,9,Present,14:00,22:00,10,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0429,Rohan Das,Thane,Demo client 5,2026-09-07,Evening,9,present,14:00,22:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0001,Aarav Shah,Vikhroli,Demo client 1,2026-09-08,Day,9,Present,08:00,16:00,10,Pending,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0002,Priya Nair,Vikhroli,Demo client 1,2026-09-08,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0003,Imran Khan,Vikhroli,Demo client 1,2026-09-08,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0004,Sneha Patil,Vikhroli,Demo client 1,2026-09-08,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0005,Rohan Das,Vikhroli,Demo client 1,2026-09-08,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+,Anjali Rao,Vikhroli,Demo client 1,2026-09-08,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0007,Kabir Mehta,Vikhroli,Demo client 1,2026-09-08,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0008,Neha Kulkarni,Vikhroli,Demo client 1,2026-09-08,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0009,Aarav Shah, VIKHROLI ,Demo client 1,2026-09-08,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0021,Aarav Shah,Vikhroli,Demo client 1,2026-09-08,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0022,Priya Nair,Vikhroli,Demo client 1,2026-09-08,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0023,Imran Khan,Vikhroli,Demo client 1,2026-09-08,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0024,Sneha Patil,Vikhroli,Demo client 1,2026-09-08,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0025,Rohan Das,Vikhroli,Demo client 1,2026-09-08,Evening,9,Absent,14:00,22:00,0,Pending,0,Supervisor 1,Synthetic demonstration record,Met
+ EMP-0026 ,Anjali Rao,Vikhroli,Demo client 1,2026-09-08,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0027,Kabir Mehta,Vikhroli,Demo client 1,2026-09-08,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0028,Neha Kulkarni,Vikhroli,Demo client 1,2026-09-08,Evening,9,present,14:00,22:00,9,Pending,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0029,Aarav Shah,Vikhroli,Demo client 1,2026-09-08,Evening,9,Present,14:00,22:00,8,Pending,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0101,Priya Nair,Andheri,Demo client 2,2026-09-08,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0102,Imran Khan, ANDHERI ,Demo client 2,2026-09-08,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0103,Sneha Patil,Andheri,Demo client 2,2026-09-08,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0104,Rohan Das,Andheri,Demo client 2,14/09/2026,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0105,Anjali Rao,Andheri,Demo client 2,2026-09-08,Day,9,Present,08:00,16:00,0,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0106,Kabir Mehta,Andheri,Demo client 2,2026-09-08,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0107,Neha Kulkarni,Andheri,Demo client 2,2026-09-08,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0108,Aarav Shah,Andheri,Demo client 2,2026-09-08,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0109,Priya Nair,Andheri,Demo client 2,2026-09-08,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0121,Priya Nair,Andheri,Demo client 2,2026-09-08,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0122,Imran Khan,Andheri,Demo client 2,2026-09-08,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0123,Sneha Patil,Andheri,Demo client 2,2026-09-08,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0124,Rohan Das, ANDHERI ,Demo client 2,2026-09-08,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0125,Anjali Rao,Andheri,Demo client 2,2026-09-08,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0126,Kabir Mehta,Andheri,Demo client 2,2026-09-08,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0127,Neha Kulkarni,Andheri,Demo client 2,2026-09-08,Evening,9,present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0128,Aarav Shah,Andheri,Demo client 2,2026-09-08,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0129,Priya Nair,Andheri,Demo client 2,2026-09-08,Evening,9,Present,14:00,22:00,10,Completed,1,Supervisor 2,Synthetic demonstration record,Met
+EMP-0201,Imran Khan,Lower Parel,Demo client 3,2026-09-08,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+ EMP-0202 ,Sneha Patil,Lower Parel,Demo client 3,2026-09-08,Day,9,Present,08:00,16:00,8,Pending,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0203,Rohan Das,Lower Parel,Demo client 3,2026-09-08,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0204,Anjali Rao,Lower Parel,Demo client 3,2026-09-08,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0205,Kabir Mehta,Lower Parel,Demo client 3,2026-09-08,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0206,Neha Kulkarni, LOWER PAREL ,Demo client 3,2026-09-08,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0207,Aarav Shah,Lower Parel,Demo client 3,2026-09-08,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0208,Priya Nair,Lower Parel,Demo client 3,2026-09-08,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0209,Imran Khan,Lower Parel,Demo client 3,2026-09-08,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0221,Imran Khan,Lower Parel,Demo client 3,2026-09-08,Evening,9,Present,14:00,22:00,9,Pending,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0222,Sneha Patil,Lower Parel,Demo client 3,2026-09-08,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0223,Rohan Das,Lower Parel,Demo client 3,2026-09-08,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0224,Anjali Rao,Lower Parel,Demo client 3,2026-09-08,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0225,Kabir Mehta,Lower Parel,Demo client 3,01/02/26,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0226,Neha Kulkarni,Lower Parel,Demo client 3,2026-09-08,Evening,9,present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0227,Aarav Shah,Lower Parel,Demo client 3,2026-09-08,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0228,Priya Nair, LOWER PAREL ,Demo client 3,14/09/2026,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0229,Imran Khan,Lower Parel,Demo client 3,2026-09-08,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0301,Sneha Patil,BKC,Demo client 4,2026-09-08,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0302,Rohan Das,,Demo client 4,2026-09-08,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0303,Anjali Rao,BKC,Demo client 4,2026-09-08,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0304,Kabir Mehta,BKC,Demo client 4,2026-09-08,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0305,Neha Kulkarni,BKC,Demo client 4,2026-09-08,Day,9,Absent,08:00,16:00,0,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0306,Aarav Shah,BKC,Demo client 4,2026-09-08,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+ EMP-0307 ,Priya Nair,BKC,Demo client 4,2026-09-08,Day,9,Absent,08:00,16:00,0,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0308,Imran Khan,BKC,Demo client 4,2026-09-08,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0309,Sneha Patil,BKC,Demo client 4,2026-09-08,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0321,Sneha Patil, BKC ,Demo client 4,2026-09-08,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0322,Rohan Das,BKC,Demo client 4,2026-09-08,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0323,Anjali Rao,BKC,Demo client 4,2026-02-30,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0324,Kabir Mehta,BKC,Demo client 4,2026-09-08,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0325,Neha Kulkarni,BKC,Demo client 4,2026-09-08,Evening,9,present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0326,Aarav Shah,BKC,Demo client 4,2026-09-08,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0327,Priya Nair,BKC,Demo client 4,2026-09-08,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0328,Imran Khan,BKC,Demo client 4,2026-09-08,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0329,Sneha Patil,BKC,Demo client 4,2026-09-08,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0401,Rohan Das,Thane,Demo client 5,2026-09-08,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0402,Anjali Rao,Thane,Demo client 5,2026-09-08,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0403,Kabir Mehta, THANE ,Demo client 5,2026-09-08,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0404,Neha Kulkarni,Thane,Demo client 5,2026-09-08,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0405,Aarav Shah,Thane,Demo client 5,2026-09-08,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0406,Priya Nair,Thane,Demo client 5,2026-09-08,Day,9,Present,08:00,16:00,9,Pending,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0407,Imran Khan,Thane,Demo client 5,2026-09-08,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Breached
+EMP-0408,Sneha Patil,Thane,Demo client 5,2026-09-08,Day,9,Absent,08:00,16:00,0,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0409,Rohan Das,Thane,Demo client 5,2026-09-08,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0421,Rohan Das,Thane,Demo client 5,2026-09-08,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0422,Anjali Rao,Thane,Demo client 5,2026-09-08,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+ EMP-0423 ,Kabir Mehta,Thane,Demo client 5,14/09/2026,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0424,Neha Kulkarni,Thane,Demo client 5,2026-09-08,Evening,9,present,14:00,22:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0425,Aarav Shah, THANE ,Demo client 5,2026-09-08,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0426,Priya Nair,Thane,Demo client 5,2026-09-08,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0427,Imran Khan,Thane,Demo client 5,2026-09-08,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0428,Sneha Patil,Thane,Demo client 5,2026-09-08,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0429,Rohan Das,Thane,Demo client 5,2026-09-08,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0001,Aarav Shah,Vikhroli,Demo client 1,2026-09-09,Day,9,Absent,08:00,16:00,0,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0002,Priya Nair,Vikhroli,Demo client 1,2026-09-09,Day,9,Present,08:00,16:00,18,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0003,Imran Khan,Vikhroli,Demo client 1,2026-09-09,Day,9,Present,08:00,16:00,8,Pending,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0004,Sneha Patil,Vikhroli,Demo client 1,2026-09-09,Day,9,Absent,08:00,16:00,0,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0005,Rohan Das,Vikhroli,Demo client 1,2026-09-09,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0006,Anjali Rao,Vikhroli,Demo client 1,2026-09-09,Day,9,Present,08:00,16:00,9,Completed,1,Supervisor 1,Synthetic demonstration record,Met
+EMP-0007,Kabir Mehta, VIKHROLI ,Demo client 1,2026-09-09,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0008,Neha Kulkarni,Vikhroli,Demo client 1,2026-09-09,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0009,Aarav Shah,Vikhroli,Demo client 1,2026-09-09,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0021,Aarav Shah,Vikhroli,Demo client 1,2026-09-09,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0022,Priya Nair,Vikhroli,Demo client 1,2026-09-09,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Breached
+EMP-0023,Imran Khan,Vikhroli,Demo client 1,2026-09-09,Evening,9,absent,14:00,22:00,0,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0024,Sneha Patil,Vikhroli,Demo client 1,2026-09-09,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0025,Rohan Das,Vikhroli,Demo client 1,2026-09-09,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0026,Anjali Rao,Vikhroli,Demo client 1,2026-09-09,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0027,Kabir Mehta,Vikhroli,Demo client 1,2026-09-09,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+ EMP-0028 ,Neha Kulkarni,Vikhroli,Demo client 1,2026-09-09,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0029,Aarav Shah, VIKHROLI ,Demo client 1,2026-09-09,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0101,Priya Nair,Andheri,Demo client 2,2026-09-09,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0102,Imran Khan,Andheri,Demo client 2,2026-09-09,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0103,Sneha Patil,Andheri,Demo client 2,2026-09-09,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0104,Rohan Das,Andheri,Demo client 2,2026-09-09,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0105,Anjali Rao,Andheri,Demo client 2,2026-09-09,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0106,Kabir Mehta,Andheri,Demo client 2,2026-09-09,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 2,Synthetic demonstration record,Breached
+EMP-0107,Neha Kulkarni,Andheri,Demo client 2,14/09/2026,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0108,Aarav Shah,Andheri,Demo client 2,2026-09-09,Day,9,Unknown,08:00,16:00,0,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0109,Priya Nair,Andheri,Demo client 2,2026-09-09,Day,9,Absent,08:00,16:00,0,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0121,Priya Nair,Andheri,Demo client 2,2026-09-09,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0122,Imran Khan, ANDHERI ,Demo client 2,2026-09-09,Evening,9,present,14:00,22:00,8,Pending,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0123,Sneha Patil,Andheri,Demo client 2,2026-09-09,Evening,9,Present,14:00,22:00,9,Pending,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0124,Rohan Das,Andheri,Demo client 2,2026-09-09,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0125,Anjali Rao,Andheri,Demo client 2,2026-09-09,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0126,Kabir Mehta,Andheri,Demo client 2,2026-09-09,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0127,Neha Kulkarni,Andheri,Demo client 2,2026-09-09,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0128,Aarav Shah,Andheri,Demo client 2,2026-09-09,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0129,Priya Nair,Andheri,Demo client 2,2026-09-09,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0201,Imran Khan,Lower Parel,Demo client 3,2026-09-09,Day,9,Present,08:00,16:00,9,Pending,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0202,Sneha Patil,Lower Parel,Demo client 3,2026-09-09,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0203,Rohan Das,Lower Parel,Demo client 3,2026-09-09,Day,9,Present,08:00,16:00,9,Pending,0,Supervisor 3,Synthetic demonstration record,Met
+ EMP-0204 ,Anjali Rao, LOWER PAREL ,Demo client 3,2026-09-09,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0205,Kabir Mehta,Lower Parel,Demo client 3,2026-09-09,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0206,Neha Kulkarni,Lower Parel,Demo client 3,2026-09-09,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+,Aarav Shah,Lower Parel,Demo client 3,2026-09-09,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0208,Priya Nair,Lower Parel,Demo client 3,2026-09-09,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0209,Imran Khan,Lower Parel,Demo client 3,2026-09-09,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0221,Imran Khan,Lower Parel,Demo client 3,2026-09-09,Evening,9,present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0222,Sneha Patil,Lower Parel,Demo client 3,2026-09-09,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0223,Rohan Das,Lower Parel,Demo client 3,2026-09-09,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0224,Anjali Rao,Lower Parel,Demo client 3,2026-09-09,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0225,Kabir Mehta,Lower Parel,Demo client 3,2026-09-09,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0226,Neha Kulkarni, LOWER PAREL ,Demo client 3,2026-09-09,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0227,Aarav Shah,Lower Parel,Demo client 3,2026-09-09,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 3,Synthetic demonstration record,Breached
+EMP-0228,Priya Nair,Lower Parel,Demo client 3,2026-09-09,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0229,Imran Khan,Lower Parel,Demo client 3,2026-09-09,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0301,Sneha Patil,BKC,Demo client 4,2026-09-09,Day,9,Present,08:00,16:00,10,Pending,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0302,Rohan Das,BKC,Demo client 4,14/09/2026,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0303,Anjali Rao,BKC,Demo client 4,01/02/26,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0304,Kabir Mehta,BKC,Demo client 4,2026-09-09,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0305,Neha Kulkarni,BKC,Demo client 4,2026-09-09,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0306,Aarav Shah,BKC,Demo client 4,2026-09-09,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0307,Priya Nair,BKC,Demo client 4,2026-09-09,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0308,Imran Khan, BKC ,Demo client 4,2026-09-09,Day,9,Present,08:00,16:00,10,Pending,0,Supervisor 4,Synthetic demonstration record,Met
+ EMP-0309 ,Sneha Patil,BKC,Demo client 4,2026-09-09,Day,9,present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0321,Sneha Patil,BKC,Demo client 4,2026-09-09,Evening,9,Present,14:00,22:00,8,Pending,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0322,Rohan Das,BKC,Demo client 4,2026-09-09,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0323,Anjali Rao,BKC,Demo client 4,2026-09-09,,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0324,Kabir Mehta,BKC,Demo client 4,2026-09-09,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0325,Neha Kulkarni,BKC,Demo client 4,2026-09-09,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0326,Aarav Shah,BKC,Demo client 4,2026-09-09,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0327,Priya Nair,BKC,Demo client 4,2026-09-09,Evening,9,Present,14:00,22:00,8,Pending,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0328,Imran Khan,BKC,Demo client 4,2026-09-09,Evening,9,Present,14:00,22:00,10,Completed,1,Supervisor 4,Synthetic demonstration record,Met
+EMP-0329,Sneha Patil,BKC,Demo client 4,2026-09-09,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0401,Rohan Das, THANE ,Demo client 5,2026-09-09,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0402,Anjali Rao,Thane,Demo client 5,2026-09-09,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0403,Kabir Mehta,Thane,Demo client 5,2026-09-09,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0404,Neha Kulkarni,Thane,Demo client 5,2026-09-09,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0405,Aarav Shah,Thane,Demo client 5,2026-09-09,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0406,Priya Nair,Thane,Demo client 5,2026-09-09,Day,9,Present,08:00,16:00,9,Completed,1,Supervisor 5,Synthetic demonstration record,Met
+EMP-0407,Imran Khan,Thane,Demo client 5,2026-09-09,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0408,Sneha Patil,Thane,Demo client 5,2026-09-09,Day,9,present,08:00,16:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0409,Rohan Das,Thane,Demo client 5,2026-09-09,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0421,Rohan Das,Thane,Demo client 5,2026-09-09,Evening,9,Present,14:00,22:00,10,Pending,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0422,Anjali Rao,Thane,Demo client 5,2026-09-09,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0423,Kabir Mehta, THANE ,Demo client 5,2026-09-09,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Breached
+EMP-0424,Neha Kulkarni,Thane,Demo client 5,2026-09-09,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+ EMP-0425 ,Aarav Shah,Thane,Demo client 5,2026-09-09,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0426,Priya Nair,Thane,Demo client 5,14/09/2026,Evening,9,Present,14:00,22:00,8,Completed,1,Supervisor 5,Synthetic demonstration record,Met
+EMP-0427,Imran Khan,Thane,Demo client 5,2026-09-09,Evening,9,Present,14:00,22:00,8,Pending,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0428,Sneha Patil,Thane,Demo client 5,2026-09-09,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0429,Rohan Das,Thane,Demo client 5,2026-09-09,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0001,Aarav Shah,Vikhroli,Demo client 1,2026-09-10,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0002,Priya Nair,Vikhroli,Demo client 1,2026-09-10,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0003,Imran Khan,Vikhroli,Demo client 1,2026-09-10,Day,9,Absent,08:00,16:00,0,Pending,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0004,Sneha Patil,Vikhroli,Demo client 1,2026-09-10,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0005,Rohan Das, VIKHROLI ,Demo client 1,2026-09-10,Day,9,Absent,08:00,16:00,0,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0006,Anjali Rao,Vikhroli,Demo client 1,2026-09-10,Day,9,Present,08:00,16:00,0,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0007,Kabir Mehta,Vikhroli,Demo client 1,2026-09-10,Day,9,present,08:00,16:00,8,Pending,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0008,Neha Kulkarni,Vikhroli,Demo client 1,2026-09-10,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0009,Aarav Shah,Vikhroli,Demo client 1,2026-09-10,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0021,Aarav Shah,Vikhroli,Demo client 1,2026-09-10,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0022,Priya Nair,Vikhroli,Demo client 1,2026-09-10,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0023,Imran Khan,Vikhroli,Demo client 1,2026-09-10,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0024,Sneha Patil,,Demo client 1,2026-09-10,Evening,9,Present,14:00,22:00,10,Completed,1,Supervisor 1,Synthetic demonstration record,Met
+EMP-0025,Rohan Das,Vikhroli,Demo client 1,2026-09-10,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0026,Anjali Rao,Vikhroli,Demo client 1,2026-09-10,Evening,9,Present,14:00,22:00,18,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0027,Kabir Mehta, VIKHROLI ,Demo client 1,2026-09-10,Evening,9,Present,14:00,22:00,9,Completed,1,Supervisor 1,Synthetic demonstration record,Met
+EMP-0028,Neha Kulkarni,Vikhroli,Demo client 1,2026-09-10,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0029,Aarav Shah,Vikhroli,Demo client 1,2026-09-10,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+ EMP-0101 ,Priya Nair,Andheri,Demo client 2,2026-09-10,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0102,Imran Khan,Andheri,Demo client 2,2026-09-10,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0103,Sneha Patil,Andheri,Demo client 2,2026-09-10,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0104,Rohan Das,Andheri,Demo client 2,2026-09-10,Day,9,Absent,08:00,16:00,0,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0105,Anjali Rao,Andheri,Demo client 2,2026-09-10,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0106,Kabir Mehta,Andheri,Demo client 2,2026-09-10,Day,9,present,08:00,16:00,9,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0107,Neha Kulkarni,Andheri,Demo client 2,2026-02-30,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0108,Aarav Shah,Andheri,Demo client 2,2026-09-10,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0109,Priya Nair, ANDHERI ,Demo client 2,2026-09-10,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0121,Priya Nair,Andheri,Demo client 2,14/09/2026,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0122,Imran Khan,Andheri,Demo client 2,2026-09-10,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0123,Sneha Patil,Andheri,Demo client 2,2026-09-10,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0124,Rohan Das,Andheri,Demo client 2,2026-09-10,Evening,9,Absent,14:00,22:00,0,Pending,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0125,Anjali Rao,Andheri,Demo client 2,2026-09-10,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0126,Kabir Mehta,Andheri,Demo client 2,2026-09-10,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0127,Neha Kulkarni,Andheri,Demo client 2,2026-09-10,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0128,Aarav Shah,Andheri,Demo client 2,2026-09-10,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0129,Priya Nair,Andheri,Demo client 2,2026-09-10,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0201,Imran Khan,Lower Parel,Demo client 3,2026-09-10,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0202,Sneha Patil, LOWER PAREL ,Demo client 3,2026-09-10,Day,9,Present,08:00,16:00,10,Pending,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0203,Rohan Das,Lower Parel,Demo client 3,2026-09-10,Day,9,Absent,08:00,16:00,0,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0204,Anjali Rao,Lower Parel,Demo client 3,2026-09-10,Day,9,Present,08:00,16:00,10,Pending,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0205,Kabir Mehta,Lower Parel,Demo client 3,2026-09-10,Day,9,absent,08:00,16:00,0,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+ EMP-0206 ,Neha Kulkarni,Lower Parel,Demo client 3,2026-09-10,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Breached
+EMP-0207,Aarav Shah,Lower Parel,Demo client 3,2026-09-10,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 3,Synthetic demonstration record,Breached
+EMP-0208,Priya Nair,Lower Parel,Demo client 3,2026-09-10,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0209,Imran Khan,Lower Parel,Demo client 3,2026-09-10,Day,9,Present,08:00,16:00,10,Pending,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0221,Imran Khan,Lower Parel,Demo client 3,2026-09-10,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0222,Sneha Patil,Lower Parel,Demo client 3,2026-09-10,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Breached
+EMP-0223,Rohan Das,Lower Parel,Demo client 3,2026-09-10,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0224,Anjali Rao, LOWER PAREL ,Demo client 3,2026-09-10,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0225,Kabir Mehta,Lower Parel,Demo client 3,2026-09-10,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0226,Neha Kulkarni,Lower Parel,Demo client 3,2026-09-10,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0227,Aarav Shah,Lower Parel,Demo client 3,2026-09-10,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0228,Priya Nair,Lower Parel,Demo client 3,2026-09-10,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0229,Imran Khan,Lower Parel,Demo client 3,2026-09-10,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0301,Sneha Patil,BKC,Demo client 4,2026-09-10,Day,9,Absent,08:00,16:00,0,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0302,Rohan Das,BKC,Demo client 4,2026-09-10,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0303,Anjali Rao,BKC,Demo client 4,2026-09-10,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0304,Kabir Mehta,BKC,Demo client 4,2026-09-10,Day,9,present,08:00,16:00,10,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0305,Neha Kulkarni,BKC,Demo client 4,14/09/2026,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0306,Aarav Shah, BKC ,Demo client 4,2026-09-10,Day,9,Present,08:00,16:00,10,Completed,1,Supervisor 4,Synthetic demonstration record,Met
+EMP-0307,Priya Nair,BKC,Demo client 4,2026-09-10,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0308,Imran Khan,BKC,Demo client 4,2026-09-10,Day,9,Present,08:00,16:00,8,Pending,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0309,Sneha Patil,BKC,Demo client 4,2026-09-10,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0321,Sneha Patil,BKC,Demo client 4,01/02/26,Evening,9,Absent,14:00,22:00,0,Pending,0,Supervisor 4,Synthetic demonstration record,Met
+ EMP-0322 ,Rohan Das,BKC,Demo client 4,2026-09-10,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0323,Anjali Rao,BKC,Demo client 4,2026-09-10,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0324,Kabir Mehta,BKC,Demo client 4,2026-09-10,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0325,Neha Kulkarni,BKC,Demo client 4,2026-09-10,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0326,Aarav Shah,BKC,Demo client 4,2026-09-10,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0327,Priya Nair,BKC,Demo client 4,2026-09-10,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0328,Imran Khan, BKC ,Demo client 4,2026-09-10,Evening,9,Present,14:00,22:00,8,Pending,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0329,Sneha Patil,BKC,Demo client 4,2026-09-10,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0401,Rohan Das,Thane,Demo client 5,2026-09-10,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0402,Anjali Rao,Thane,Demo client 5,2026-09-10,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0403,Kabir Mehta,Thane,Demo client 5,2026-09-10,Day,9,present,08:00,16:00,10,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0404,Neha Kulkarni,Thane,Demo client 5,2026-09-10,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0405,Aarav Shah,Thane,Demo client 5,2026-09-10,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0406,Priya Nair,Thane,Demo client 5,2026-09-10,Day,9,Present,08:00,16:00,8,Pending,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0407,Imran Khan,Thane,Demo client 5,2026-09-10,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Breached
+,Sneha Patil,Thane,Demo client 5,2026-09-10,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0409,Rohan Das,Thane,Demo client 5,2026-09-10,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0421,Rohan Das, THANE ,Demo client 5,2026-09-10,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0422,Anjali Rao,Thane,Demo client 5,2026-09-10,Evening,9,Present,14:00,22:00,10,Pending,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0423,Kabir Mehta,Thane,Demo client 5,2026-09-10,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0424,Neha Kulkarni,Thane,Demo client 5,2026-09-10,Evening,9,Unknown,14:00,22:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0425,Aarav Shah,Thane,Demo client 5,2026-09-10,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0426,Priya Nair,Thane,Demo client 5,2026-09-10,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+ EMP-0427 ,Imran Khan,Thane,Demo client 5,2026-09-10,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0428,Sneha Patil,Thane,Demo client 5,2026-09-10,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0429,Rohan Das,Thane,Demo client 5,14/09/2026,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0001,Aarav Shah,Vikhroli,Demo client 1,2026-09-11,Day,9,Present,08:00,16:00,8,Completed,1,Supervisor 1,Synthetic demonstration record,Met
+EMP-0002,Priya Nair,Vikhroli,Demo client 1,2026-09-11,Day,9,absent,08:00,16:00,0,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0003,Imran Khan, VIKHROLI ,Demo client 1,2026-09-11,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0004,Sneha Patil,Vikhroli,Demo client 1,2026-09-11,Day,9,Present,08:00,16:00,8,Pending,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0005,Rohan Das,Vikhroli,Demo client 1,2026-09-11,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0006,Anjali Rao,Vikhroli,Demo client 1,2026-09-11,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0007,Kabir Mehta,Vikhroli,Demo client 1,2026-09-11,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0008,Neha Kulkarni,Vikhroli,Demo client 1,2026-09-11,Day,9,Absent,08:00,16:00,0,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0009,Aarav Shah,Vikhroli,Demo client 1,2026-09-11,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0021,Aarav Shah,Vikhroli,Demo client 1,2026-09-11,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0022,Priya Nair,Vikhroli,Demo client 1,2026-09-11,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0023,Imran Khan,Vikhroli,Demo client 1,2026-09-11,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0024,Sneha Patil,Vikhroli,Demo client 1,2026-09-11,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0025,Rohan Das, VIKHROLI ,Demo client 1,2026-09-11,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0026,Anjali Rao,Vikhroli,Demo client 1,2026-09-11,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0027,Kabir Mehta,Vikhroli,Demo client 1,2026-09-11,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0028,Neha Kulkarni,Vikhroli,Demo client 1,2026-09-11,Evening,9,Present,14:00,22:00,9,Completed,1,Supervisor 1,Synthetic demonstration record,Met
+EMP-0029,Aarav Shah,Vikhroli,Demo client 1,2026-09-11,Evening,9,Present,14:00,22:00,8,Pending,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0101,Priya Nair,Andheri,Demo client 2,2026-09-11,Day,9,present,08:00,16:00,9,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0102,Imran Khan,Andheri,Demo client 2,2026-09-11,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Breached
+ EMP-0103 ,Sneha Patil,Andheri,Demo client 2,2026-09-11,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0104,Rohan Das,Andheri,Demo client 2,2026-09-11,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0105,Anjali Rao,Andheri,Demo client 2,2026-09-11,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0106,Kabir Mehta,Andheri,Demo client 2,2026-09-11,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0107,Neha Kulkarni, ANDHERI ,Demo client 2,2026-09-11,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0108,Aarav Shah,Andheri,Demo client 2,2026-09-11,Day,9,Absent,08:00,16:00,0,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0109,Priya Nair,Andheri,Demo client 2,2026-09-11,Day,9,Present,08:00,16:00,10,Pending,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0121,Priya Nair,Andheri,Demo client 2,2026-09-11,Evening,9,Present,14:00,22:00,18,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0122,Imran Khan,Andheri,Demo client 2,2026-09-11,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0123,Sneha Patil,Andheri,Demo client 2,2026-09-11,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0124,Rohan Das,Andheri,Demo client 2,14/09/2026,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0125,Anjali Rao,Andheri,Demo client 2,2026-09-11,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0126,Kabir Mehta,Andheri,Demo client 2,2026-09-11,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0127,Neha Kulkarni,Andheri,Demo client 2,2026-09-11,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0128,Aarav Shah,Andheri,Demo client 2,2026-09-11,Evening,9,Present,14:00,22:00,10,Pending,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0129,Priya Nair, ANDHERI ,Demo client 2,2026-09-11,Evening,9,present,14:00,22:00,9,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0201,Imran Khan,Lower Parel,Demo client 3,2026-09-11,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0202,Sneha Patil,Lower Parel,Demo client 3,2026-09-11,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0203,Rohan Das,Lower Parel,Demo client 3,2026-09-11,Day,9,Absent,08:00,16:00,0,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0204,Anjali Rao,Lower Parel,Demo client 3,2026-09-11,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0205,Kabir Mehta,Lower Parel,Demo client 3,2026-09-11,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0206,Neha Kulkarni,Lower Parel,Demo client 3,2026-09-11,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0207,Aarav Shah,Lower Parel,Demo client 3,2026-09-11,,9,Present,08:00,16:00,9,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+ EMP-0208 ,Priya Nair,Lower Parel,Demo client 3,2026-09-11,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0209,Imran Khan,Lower Parel,Demo client 3,2026-09-11,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0221,Imran Khan,Lower Parel,Demo client 3,2026-09-11,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Breached
+EMP-0222,Sneha Patil, LOWER PAREL ,Demo client 3,2026-09-11,Evening,9,Present,14:00,22:00,10,Pending,0,Supervisor 3,Synthetic demonstration record,Breached
+EMP-0223,Rohan Das,Lower Parel,Demo client 3,2026-09-11,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0224,Anjali Rao,Lower Parel,Demo client 3,2026-09-11,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0225,Kabir Mehta,Lower Parel,Demo client 3,2026-09-11,Evening,9,Present,14:00,22:00,8,Pending,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0226,Neha Kulkarni,Lower Parel,Demo client 3,2026-09-11,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0227,Aarav Shah,Lower Parel,Demo client 3,2026-09-11,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0228,Priya Nair,Lower Parel,Demo client 3,2026-09-11,Evening,9,present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Breached
+EMP-0229,Imran Khan,Lower Parel,Demo client 3,2026-09-11,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0301,Sneha Patil,BKC,Demo client 4,2026-09-11,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0302,Rohan Das,BKC,Demo client 4,2026-09-11,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0303,Anjali Rao,BKC,Demo client 4,2026-09-11,Day,9,Present,08:00,16:00,10,Completed,1,Supervisor 4,Synthetic demonstration record,Met
+EMP-0304,Kabir Mehta, BKC ,Demo client 4,2026-09-11,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0305,Neha Kulkarni,BKC,Demo client 4,2026-09-11,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0306,Aarav Shah,,Demo client 4,2026-09-11,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0307,Priya Nair,BKC,Demo client 4,2026-09-11,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0308,Imran Khan,BKC,Demo client 4,14/09/2026,Day,9,Absent,08:00,16:00,0,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0309,Sneha Patil,BKC,Demo client 4,2026-09-11,Day,9,Present,08:00,16:00,9,Completed,1,Supervisor 4,Synthetic demonstration record,Met
+EMP-0321,Sneha Patil,BKC,Demo client 4,2026-09-11,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0322,Rohan Das,BKC,Demo client 4,2026-09-11,Evening,9,Present,14:00,22:00,10,Completed,1,Supervisor 4,Synthetic demonstration record,Met
+EMP-0323,Anjali Rao,BKC,Demo client 4,2026-09-11,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+ EMP-0324 ,Kabir Mehta,BKC,Demo client 4,2026-09-11,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0325,Neha Kulkarni,BKC,Demo client 4,2026-09-11,Evening,9,Present,14:00,22:00,10,Pending,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0326,Aarav Shah, BKC ,Demo client 4,2026-09-11,Evening,9,Present,14:00,22:00,10,Pending,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0327,Priya Nair,BKC,Demo client 4,2026-09-11,Evening,9,present,14:00,22:00,10,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0328,Imran Khan,BKC,Demo client 4,01/02/26,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0329,Sneha Patil,BKC,Demo client 4,2026-09-11,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0401,Rohan Das,Thane,Demo client 5,2026-09-11,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0402,Anjali Rao,Thane,Demo client 5,2026-02-30,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0403,Kabir Mehta,Thane,Demo client 5,2026-09-11,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0404,Neha Kulkarni,Thane,Demo client 5,2026-09-11,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0405,Aarav Shah,Thane,Demo client 5,2026-09-11,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0406,Priya Nair,Thane,Demo client 5,2026-09-11,Day,9,Absent,08:00,16:00,0,Pending,0,Supervisor 5,Synthetic demonstration record,Breached
+EMP-0407,Imran Khan,Thane,Demo client 5,2026-09-11,Day,9,Present,08:00,16:00,0,Pending,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0408,Sneha Patil, THANE ,Demo client 5,2026-09-11,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0409,Rohan Das,Thane,Demo client 5,2026-09-11,Day,9,Present,08:00,16:00,8,Pending,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0421,Rohan Das,Thane,Demo client 5,2026-09-11,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0422,Anjali Rao,Thane,Demo client 5,2026-09-11,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0423,Kabir Mehta,Thane,Demo client 5,2026-09-11,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0424,Neha Kulkarni,Thane,Demo client 5,2026-09-11,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0425,Aarav Shah,Thane,Demo client 5,2026-09-11,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0426,Priya Nair,Thane,Demo client 5,2026-09-11,Evening,9,present,14:00,22:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0427,Imran Khan,Thane,Demo client 5,2026-09-11,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0428,Sneha Patil,Thane,Demo client 5,2026-09-11,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+ EMP-0429 ,Rohan Das,Thane,Demo client 5,2026-09-11,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0001,Aarav Shah, VIKHROLI ,Demo client 1,2026-09-12,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0002,Priya Nair,Vikhroli,Demo client 1,2026-09-12,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0003,Imran Khan,Vikhroli,Demo client 1,14/09/2026,Day,9,Absent,08:00,16:00,0,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0004,Sneha Patil,Vikhroli,Demo client 1,2026-09-12,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0005,Rohan Das,Vikhroli,Demo client 1,2026-09-12,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0006,Anjali Rao,Vikhroli,Demo client 1,2026-09-12,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0007,Kabir Mehta,Vikhroli,Demo client 1,2026-09-12,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0008,Neha Kulkarni,Vikhroli,Demo client 1,2026-09-12,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0009,Aarav Shah,Vikhroli,Demo client 1,2026-09-12,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0021,Aarav Shah,Vikhroli,Demo client 1,2026-09-12,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0022,Priya Nair,Vikhroli,Demo client 1,2026-09-12,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0023,Imran Khan, VIKHROLI ,Demo client 1,2026-09-12,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0024,Sneha Patil,Vikhroli,Demo client 1,2026-09-12,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0025,Rohan Das,Vikhroli,Demo client 1,2026-09-12,Evening,9,present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0026,Anjali Rao,Vikhroli,Demo client 1,2026-09-12,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0027,Kabir Mehta,Vikhroli,Demo client 1,2026-09-12,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0028,Neha Kulkarni,Vikhroli,Demo client 1,2026-09-12,Evening,9,Absent,14:00,22:00,0,Completed,1,Supervisor 1,Synthetic demonstration record,Met
+EMP-0029,Aarav Shah,Vikhroli,Demo client 1,2026-09-12,Evening,9,Present,14:00,22:00,8,Completed,1,Supervisor 1,Synthetic demonstration record,Met
+EMP-0101,Priya Nair,Andheri,Demo client 2,2026-09-12,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0102,Imran Khan,Andheri,Demo client 2,2026-09-12,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0103,Sneha Patil,Andheri,Demo client 2,2026-09-12,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 2,Synthetic demonstration record,Breached
+EMP-0104,Rohan Das,Andheri,Demo client 2,2026-09-12,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+ EMP-0105 ,Anjali Rao, ANDHERI ,Demo client 2,2026-09-12,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0106,Kabir Mehta,Andheri,Demo client 2,2026-09-12,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0107,Neha Kulkarni,Andheri,Demo client 2,2026-09-12,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0108,Aarav Shah,Andheri,Demo client 2,2026-09-12,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+,Priya Nair,Andheri,Demo client 2,2026-09-12,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0121,Priya Nair,Andheri,Demo client 2,2026-09-12,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0122,Imran Khan,Andheri,Demo client 2,2026-09-12,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0123,Sneha Patil,Andheri,Demo client 2,2026-09-12,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0124,Rohan Das,Andheri,Demo client 2,2026-09-12,Evening,9,present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0125,Anjali Rao,Andheri,Demo client 2,2026-09-12,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0126,Kabir Mehta,Andheri,Demo client 2,2026-09-12,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0127,Neha Kulkarni, ANDHERI ,Demo client 2,14/09/2026,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0128,Aarav Shah,Andheri,Demo client 2,2026-09-12,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0129,Priya Nair,Andheri,Demo client 2,2026-09-12,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0201,Imran Khan,Lower Parel,Demo client 3,2026-09-12,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0202,Sneha Patil,Lower Parel,Demo client 3,2026-09-12,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0203,Rohan Das,Lower Parel,Demo client 3,2026-09-12,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0204,Anjali Rao,Lower Parel,Demo client 3,2026-09-12,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0205,Kabir Mehta,Lower Parel,Demo client 3,2026-09-12,Day,9,Present,08:00,16:00,18,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0206,Neha Kulkarni,Lower Parel,Demo client 3,2026-09-12,Day,9,Absent,08:00,16:00,0,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0207,Aarav Shah,Lower Parel,Demo client 3,2026-09-12,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0208,Priya Nair,Lower Parel,Demo client 3,2026-09-12,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0209,Imran Khan, LOWER PAREL ,Demo client 3,2026-09-12,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+ EMP-0221 ,Imran Khan,Lower Parel,Demo client 3,2026-09-12,Evening,9,Present,14:00,22:00,10,Pending,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0222,Sneha Patil,Lower Parel,Demo client 3,2026-09-12,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0223,Rohan Das,Lower Parel,Demo client 3,2026-09-12,Evening,9,present,14:00,22:00,10,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0224,Anjali Rao,Lower Parel,Demo client 3,2026-09-12,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0225,Kabir Mehta,Lower Parel,Demo client 3,2026-09-12,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0226,Neha Kulkarni,Lower Parel,Demo client 3,2026-09-12,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0227,Aarav Shah,Lower Parel,Demo client 3,2026-09-12,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0228,Priya Nair,Lower Parel,Demo client 3,2026-09-12,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0229,Imran Khan,Lower Parel,Demo client 3,2026-09-12,Evening,9,Unknown,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0301,Sneha Patil,BKC,Demo client 4,2026-09-12,Day,9,Present,08:00,16:00,8,Pending,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0302,Rohan Das, BKC ,Demo client 4,2026-09-12,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0303,Anjali Rao,BKC,Demo client 4,2026-09-12,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0304,Kabir Mehta,BKC,Demo client 4,2026-09-12,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0305,Neha Kulkarni,BKC,Demo client 4,2026-09-12,Day,9,Absent,08:00,16:00,0,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0306,Aarav Shah,BKC,Demo client 4,2026-09-12,Day,9,Present,08:00,16:00,8,Pending,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0307,Priya Nair,BKC,Demo client 4,2026-09-12,Day,9,Present,08:00,16:00,8,Pending,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0308,Imran Khan,BKC,Demo client 4,2026-09-12,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0309,Sneha Patil,BKC,Demo client 4,2026-09-12,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Breached
+EMP-0321,Sneha Patil,BKC,Demo client 4,2026-09-12,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0322,Rohan Das,BKC,Demo client 4,14/09/2026,Evening,9,absent,14:00,22:00,0,Completed,0,Supervisor 4,Synthetic demonstration record,Breached
+EMP-0323,Anjali Rao,BKC,Demo client 4,2026-09-12,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0324,Kabir Mehta, BKC ,Demo client 4,2026-09-12,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0325,Neha Kulkarni,BKC,Demo client 4,2026-09-12,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+ EMP-0326 ,Aarav Shah,BKC,Demo client 4,2026-09-12,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0327,Priya Nair,BKC,Demo client 4,2026-09-12,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0328,Imran Khan,BKC,Demo client 4,2026-09-12,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0329,Sneha Patil,BKC,Demo client 4,2026-09-12,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0401,Rohan Das,Thane,Demo client 5,2026-09-12,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0402,Anjali Rao,Thane,Demo client 5,2026-09-12,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0403,Kabir Mehta,Thane,Demo client 5,2026-09-12,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0404,Neha Kulkarni,Thane,Demo client 5,2026-09-12,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0405,Aarav Shah,Thane,Demo client 5,2026-09-12,Day,9,Present,08:00,16:00,8,Pending,1,Supervisor 5,Synthetic demonstration record,Met
+EMP-0406,Priya Nair, THANE ,Demo client 5,01/02/26,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0407,Imran Khan,Thane,Demo client 5,2026-09-12,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0408,Sneha Patil,Thane,Demo client 5,2026-09-12,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0409,Rohan Das,Thane,Demo client 5,2026-09-12,Day,9,Present,08:00,16:00,8,Pending,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0421,Rohan Das,Thane,Demo client 5,2026-09-12,Evening,9,present,14:00,22:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0422,Anjali Rao,Thane,Demo client 5,2026-09-12,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0423,Kabir Mehta,Thane,Demo client 5,2026-09-12,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0424,Neha Kulkarni,Thane,Demo client 5,2026-09-12,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0425,Aarav Shah,Thane,Demo client 5,2026-09-12,Evening,9,Present,14:00,22:00,8,Completed,1,Supervisor 5,Synthetic demonstration record,Met
+EMP-0426,Priya Nair,Thane,Demo client 5,2026-09-12,Evening,9,Present,14:00,22:00,8,Pending,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0427,Imran Khan,Thane,Demo client 5,2026-09-12,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0428,Sneha Patil, THANE ,Demo client 5,2026-09-12,Evening,9,Present,14:00,22:00,10,Pending,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0429,Rohan Das,Thane,Demo client 5,2026-09-12,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0001,Aarav Shah,Vikhroli,Demo client 1,2026-09-13,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+ EMP-0002 ,Priya Nair,Vikhroli,Demo client 1,2026-09-13,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Breached
+EMP-0003,Imran Khan,Vikhroli,Demo client 1,2026-09-13,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0004,Sneha Patil,Vikhroli,Demo client 1,2026-09-13,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0005,Rohan Das,Vikhroli,Demo client 1,2026-09-13,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0006,Anjali Rao,Vikhroli,Demo client 1,14/09/2026,Day,9,Present,08:00,16:00,10,Pending,0,Supervisor 1,Synthetic demonstration record,Breached
+EMP-0007,Kabir Mehta,Vikhroli,Demo client 1,2026-09-13,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0008,Neha Kulkarni,Vikhroli,Demo client 1,2026-09-13,Day,9,Present,08:00,16:00,8,Pending,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0009,Aarav Shah,Vikhroli,Demo client 1,2026-09-13,Day,9,present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0021,Aarav Shah, VIKHROLI ,Demo client 1,2026-09-13,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0022,Priya Nair,Vikhroli,Demo client 1,2026-09-13,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0023,Imran Khan,Vikhroli,Demo client 1,2026-09-13,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0024,Sneha Patil,Vikhroli,Demo client 1,2026-09-13,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0025,Rohan Das,Vikhroli,Demo client 1,2026-09-13,Evening,9,Absent,14:00,22:00,0,Pending,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0026,Anjali Rao,Vikhroli,Demo client 1,2026-09-13,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0027,Kabir Mehta,Vikhroli,Demo client 1,2026-09-13,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0028,Neha Kulkarni,,Demo client 1,2026-09-13,Evening,9,Present,14:00,22:00,10,Pending,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0029,Aarav Shah,Vikhroli,Demo client 1,2026-09-13,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0101,Priya Nair,Andheri,Demo client 2,2026-09-13,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0102,Imran Khan,Andheri,Demo client 2,2026-09-13,,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0103,Sneha Patil, ANDHERI ,Demo client 2,2026-09-13,Day,9,Present,08:00,16:00,8,Completed,1,Supervisor 2,Synthetic demonstration record,Met
+EMP-0104,Rohan Das,Andheri,Demo client 2,2026-09-13,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0105,Anjali Rao,Andheri,Demo client 2,2026-09-13,Day,9,Present,08:00,16:00,10,Pending,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0106,Kabir Mehta,Andheri,Demo client 2,2026-09-13,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+ EMP-0107 ,Neha Kulkarni,Andheri,Demo client 2,2026-09-13,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0108,Aarav Shah,Andheri,Demo client 2,2026-09-13,Day,9,absent,08:00,16:00,0,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0109,Priya Nair,Andheri,Demo client 2,2026-09-13,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0121,Priya Nair,Andheri,Demo client 2,2026-09-13,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0122,Imran Khan,Andheri,Demo client 2,2026-09-13,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0123,Sneha Patil,Andheri,Demo client 2,2026-09-13,Evening,9,Present,14:00,22:00,9,Pending,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0124,Rohan Das,Andheri,Demo client 2,2026-09-13,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0125,Anjali Rao, ANDHERI ,Demo client 2,2026-09-13,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0126,Kabir Mehta,Andheri,Demo client 2,2026-02-30,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0127,Neha Kulkarni,Andheri,Demo client 2,2026-09-13,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0128,Aarav Shah,Andheri,Demo client 2,2026-09-13,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0129,Priya Nair,Andheri,Demo client 2,2026-09-13,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0201,Imran Khan,Lower Parel,Demo client 3,14/09/2026,Day,9,Present,08:00,16:00,8,Pending,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0202,Sneha Patil,Lower Parel,Demo client 3,2026-09-13,Day,9,Absent,08:00,16:00,0,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0203,Rohan Das,Lower Parel,Demo client 3,2026-09-13,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0204,Anjali Rao,Lower Parel,Demo client 3,2026-09-13,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0205,Kabir Mehta,Lower Parel,Demo client 3,2026-09-13,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0206,Neha Kulkarni,Lower Parel,Demo client 3,2026-09-13,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0207,Aarav Shah, LOWER PAREL ,Demo client 3,2026-09-13,Day,9,absent,08:00,16:00,0,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0208,Priya Nair,Lower Parel,Demo client 3,2026-09-13,Day,9,Present,08:00,16:00,8,Pending,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0209,Imran Khan,Lower Parel,Demo client 3,2026-09-13,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0221,Imran Khan,Lower Parel,Demo client 3,2026-09-13,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0222,Sneha Patil,Lower Parel,Demo client 3,2026-09-13,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+ EMP-0223 ,Rohan Das,Lower Parel,Demo client 3,2026-09-13,Evening,9,Present,14:00,22:00,10,Completed,1,Supervisor 3,Synthetic demonstration record,Breached
+EMP-0224,Anjali Rao,Lower Parel,Demo client 3,2026-09-13,Evening,9,Present,14:00,22:00,8,Pending,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0225,Kabir Mehta,Lower Parel,Demo client 3,2026-09-13,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0226,Neha Kulkarni,Lower Parel,Demo client 3,2026-09-13,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0227,Aarav Shah,Lower Parel,Demo client 3,2026-09-13,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0228,Priya Nair,Lower Parel,Demo client 3,2026-09-13,Evening,9,Present,14:00,22:00,8,Completed,1,Supervisor 3,Synthetic demonstration record,Met
+EMP-0229,Imran Khan, LOWER PAREL ,Demo client 3,2026-09-13,Evening,9,Present,14:00,22:00,18,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0301,Sneha Patil,BKC,Demo client 4,2026-09-13,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0302,Rohan Das,BKC,Demo client 4,2026-09-13,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0303,Anjali Rao,BKC,Demo client 4,2026-09-13,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0304,Kabir Mehta,BKC,Demo client 4,2026-09-13,Day,9,Present,08:00,16:00,10,Pending,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0305,Neha Kulkarni,BKC,Demo client 4,2026-09-13,Day,9,Present,08:00,16:00,8,Completed,1,Supervisor 4,Synthetic demonstration record,Met
+EMP-0306,Aarav Shah,BKC,Demo client 4,2026-09-13,Day,9,present,08:00,16:00,10,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0307,Priya Nair,BKC,Demo client 4,2026-09-13,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0308,Imran Khan,BKC,Demo client 4,2026-09-13,Day,9,Present,08:00,16:00,0,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0309,Sneha Patil,BKC,Demo client 4,2026-09-13,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+,Sneha Patil,BKC,Demo client 4,2026-09-13,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0322,Rohan Das, BKC ,Demo client 4,2026-09-13,Evening,9,Present,14:00,22:00,8,Pending,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0323,Anjali Rao,BKC,Demo client 4,2026-09-13,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0324,Kabir Mehta,BKC,Demo client 4,2026-09-13,Evening,9,Present,14:00,22:00,10,Completed,1,Supervisor 4,Synthetic demonstration record,Met
+EMP-0325,Neha Kulkarni,BKC,Demo client 4,14/09/2026,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Breached
+EMP-0326,Aarav Shah,BKC,Demo client 4,2026-09-13,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0327,Priya Nair,BKC,Demo client 4,2026-09-13,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+ EMP-0328 ,Imran Khan,BKC,Demo client 4,2026-09-13,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0329,Sneha Patil,BKC,Demo client 4,2026-09-13,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0401,Rohan Das,Thane,Demo client 5,2026-09-13,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Breached
+EMP-0402,Anjali Rao,Thane,Demo client 5,2026-09-13,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0403,Kabir Mehta,Thane,Demo client 5,2026-09-13,Day,9,Present,08:00,16:00,8,Pending,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0404,Neha Kulkarni, THANE ,Demo client 5,2026-09-13,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0405,Aarav Shah,Thane,Demo client 5,2026-09-13,Day,9,present,08:00,16:00,10,Pending,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0406,Priya Nair,Thane,Demo client 5,2026-09-13,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0407,Imran Khan,Thane,Demo client 5,2026-09-13,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0408,Sneha Patil,Thane,Demo client 5,2026-09-13,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0409,Rohan Das,Thane,Demo client 5,2026-09-13,Day,9,Absent,08:00,16:00,0,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0421,Rohan Das,Thane,Demo client 5,2026-09-13,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0422,Anjali Rao,Thane,Demo client 5,2026-09-13,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0423,Kabir Mehta,Thane,Demo client 5,2026-09-13,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0424,Neha Kulkarni,Thane,Demo client 5,01/02/26,Evening,9,Present,14:00,22:00,8,Pending,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0425,Aarav Shah,Thane,Demo client 5,2026-09-13,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 5,Synthetic demonstration record,Breached
+EMP-0426,Priya Nair, THANE ,Demo client 5,2026-09-13,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0427,Imran Khan,Thane,Demo client 5,2026-09-13,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0428,Sneha Patil,Thane,Demo client 5,2026-09-13,Evening,9,Present,14:00,22:00,8,Completed,1,Supervisor 5,Synthetic demonstration record,Met
+EMP-0429,Rohan Das,Thane,Demo client 5,2026-09-13,Evening,9,Present,14:00,22:00,9,Pending,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0001,Aarav Shah,Vikhroli,Demo client 1,2026-09-14,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0002,Priya Nair,Vikhroli,Demo client 1,2026-09-14,Day,9,Absent,08:00,16:00,0,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0003,Imran Khan,Vikhroli,Demo client 1,2026-09-14,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Breached
+ EMP-0004 ,Sneha Patil,Vikhroli,Demo client 1,2026-09-14,Day,9,present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0005,Rohan Das,Vikhroli,Demo client 1,2026-09-14,Day,9,Present,08:00,16:00,9,Pending,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0006,Anjali Rao,Vikhroli,Demo client 1,2026-09-14,Day,9,Absent,08:00,16:00,0,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0007,Kabir Mehta,Vikhroli,Demo client 1,2026-09-14,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0008,Neha Kulkarni, VIKHROLI ,Demo client 1,2026-09-14,Day,9,Present,08:00,16:00,9,Completed,1,Supervisor 1,Synthetic demonstration record,Met
+EMP-0009,Aarav Shah,Vikhroli,Demo client 1,14/09/2026,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0021,Aarav Shah,Vikhroli,Demo client 1,2026-09-14,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0022,Priya Nair,Vikhroli,Demo client 1,2026-09-14,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0023,Imran Khan,Vikhroli,Demo client 1,2026-09-14,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Breached
+EMP-0024,Sneha Patil,Vikhroli,Demo client 1,2026-09-14,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0025,Rohan Das,Vikhroli,Demo client 1,2026-09-14,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0026,Anjali Rao,Vikhroli,Demo client 1,2026-09-14,Evening,9,Present,14:00,22:00,8,Pending,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0027,Kabir Mehta,Vikhroli,Demo client 1,2026-09-14,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0028,Neha Kulkarni,Vikhroli,Demo client 1,2026-09-14,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0029,Aarav Shah,Vikhroli,Demo client 1,2026-09-14,Evening,9,Present,14:00,22:00,8,Pending,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0101,Priya Nair, ANDHERI ,Demo client 2,2026-09-14,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0102,Imran Khan,Andheri,Demo client 2,2026-09-14,Day,9,Absent,08:00,16:00,0,Pending,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0103,Sneha Patil,Andheri,Demo client 2,2026-09-14,Day,9,present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Breached
+EMP-0104,Rohan Das,Andheri,Demo client 2,2026-09-14,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0105,Anjali Rao,Andheri,Demo client 2,2026-09-14,Day,9,Unknown,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0106,Kabir Mehta,Andheri,Demo client 2,2026-09-14,Day,9,Present,08:00,16:00,8,Completed,1,Supervisor 2,Synthetic demonstration record,Met
+EMP-0107,Neha Kulkarni,Andheri,Demo client 2,2026-09-14,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0108,Aarav Shah,Andheri,Demo client 2,2026-09-14,Day,9,Absent,08:00,16:00,0,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+ EMP-0109 ,Priya Nair,Andheri,Demo client 2,2026-09-14,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0121,Priya Nair,Andheri,Demo client 2,2026-09-14,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0122,Imran Khan,Andheri,Demo client 2,2026-09-14,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0123,Sneha Patil, ANDHERI ,Demo client 2,2026-09-14,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0124,Rohan Das,Andheri,Demo client 2,2026-09-14,Evening,9,Present,14:00,22:00,9,Pending,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0125,Anjali Rao,Andheri,Demo client 2,2026-09-14,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0126,Kabir Mehta,Andheri,Demo client 2,2026-09-14,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0127,Neha Kulkarni,Andheri,Demo client 2,2026-09-14,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0128,Aarav Shah,Andheri,Demo client 2,2026-09-14,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0129,Priya Nair,Andheri,Demo client 2,2026-09-14,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 2,Synthetic demonstration record,Met
+EMP-0201,Imran Khan,Lower Parel,Demo client 3,2026-09-14,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0202,Sneha Patil,Lower Parel,Demo client 3,2026-09-14,Day,9,present,08:00,16:00,8,Pending,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0203,Rohan Das,Lower Parel,Demo client 3,2026-09-14,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0204,Anjali Rao,Lower Parel,Demo client 3,14/09/2026,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0205,Kabir Mehta, LOWER PAREL ,Demo client 3,2026-09-14,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0206,Neha Kulkarni,Lower Parel,Demo client 3,2026-09-14,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0207,Aarav Shah,Lower Parel,Demo client 3,2026-09-14,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0208,Priya Nair,Lower Parel,Demo client 3,2026-09-14,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0209,Imran Khan,Lower Parel,Demo client 3,2026-09-14,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0221,Imran Khan,Lower Parel,Demo client 3,2026-09-14,Evening,9,Present,14:00,22:00,10,Pending,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0222,Sneha Patil,Lower Parel,Demo client 3,2026-09-14,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0223,Rohan Das,Lower Parel,Demo client 3,2026-09-14,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0224,Anjali Rao,Lower Parel,Demo client 3,2026-09-14,Evening,9,Present,14:00,22:00,8,Pending,0,Supervisor 3,Synthetic demonstration record,Met
+ EMP-0225 ,Kabir Mehta,Lower Parel,Demo client 3,2026-09-14,Evening,9,Present,14:00,22:00,10,Completed,1,Supervisor 3,Synthetic demonstration record,Met
+EMP-0226,Neha Kulkarni,Lower Parel,Demo client 3,2026-09-14,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0227,Aarav Shah, LOWER PAREL ,Demo client 3,2026-09-14,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0228,Priya Nair,Lower Parel,Demo client 3,2026-09-14,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0229,Imran Khan,Lower Parel,Demo client 3,2026-09-14,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0301,Sneha Patil,BKC,Demo client 4,2026-09-14,Day,9,present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0302,Rohan Das,BKC,Demo client 4,2026-09-14,Day,9,Absent,08:00,16:00,0,Completed,0,Supervisor 4,Synthetic demonstration record,Breached
+EMP-0303,Anjali Rao,BKC,Demo client 4,2026-09-14,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0304,Kabir Mehta,BKC,Demo client 4,2026-09-14,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0305,Neha Kulkarni,BKC,Demo client 4,2026-09-14,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0306,Aarav Shah,BKC,Demo client 4,2026-09-14,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0307,Priya Nair,BKC,Demo client 4,2026-09-14,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0308,Imran Khan,BKC,Demo client 4,2026-09-14,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0309,Sneha Patil, BKC ,Demo client 4,2026-09-14,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0321,Sneha Patil,,Demo client 4,2026-09-14,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0322,Rohan Das,BKC,Demo client 4,2026-09-14,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0323,Anjali Rao,BKC,Demo client 4,2026-09-14,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0324,Kabir Mehta,BKC,Demo client 4,2026-09-14,Evening,9,Present,14:00,22:00,18,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0325,Neha Kulkarni,BKC,Demo client 4,2026-09-14,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0326,Aarav Shah,BKC,Demo client 4,2026-09-14,Evening,9,Absent,14:00,22:00,0,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0327,Priya Nair,BKC,Demo client 4,2026-09-14,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0328,Imran Khan,BKC,Demo client 4,14/09/2026,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0329,Sneha Patil,BKC,Demo client 4,2026-09-14,Evening,9,present,14:00,22:00,8,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+ EMP-0401 ,Rohan Das,Thane,Demo client 5,2026-09-14,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0402,Anjali Rao, THANE ,Demo client 5,2026-09-14,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0403,Kabir Mehta,Thane,Demo client 5,2026-09-14,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0404,Neha Kulkarni,Thane,Demo client 5,2026-09-14,Day,9,Present,08:00,16:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0405,Aarav Shah,Thane,Demo client 5,2026-09-14,Day,9,Absent,08:00,16:00,0,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0406,Priya Nair,Thane,Demo client 5,2026-09-14,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Breached
+EMP-0407,Imran Khan,Thane,Demo client 5,2026-09-14,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0408,Sneha Patil,Thane,Demo client 5,2026-09-14,Day,9,Present,08:00,16:00,10,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0409,Rohan Das,Thane,Demo client 5,2026-09-14,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0421,Rohan Das,Thane,Demo client 5,2026-02-30,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0422,Anjali Rao,Thane,Demo client 5,2026-09-14,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0423,Kabir Mehta,Thane,Demo client 5,2026-09-14,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0424,Neha Kulkarni, THANE ,Demo client 5,2026-09-14,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0425,Aarav Shah,Thane,Demo client 5,2026-09-14,Evening,9,Present,14:00,22:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0426,Priya Nair,Thane,Demo client 5,2026-09-14,,9,Present,14:00,22:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0427,Imran Khan,Thane,Demo client 5,2026-09-14,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0428,Sneha Patil,Thane,Demo client 5,2026-09-14,Evening,9,present,14:00,22:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0429,Rohan Das,Thane,Demo client 5,2026-09-14,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0205,Kabir Mehta,Lower Parel,Demo client 3,2026-09-01,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 3,Synthetic demonstration record,Met
+EMP-0328,Imran Khan,BKC,Demo client 4,2026-09-02,Evening,9,Present,14:00,22:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Breached
+EMP-0328,Imran Khan,BKC,Demo client 4,2026-09-03,Evening,9,Present,14:00,22:00,10,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0022,Priya Nair,Vikhroli,Demo client 1,2026-09-05,Evening,9,Absent,14:00,22:00,0,Pending,0,Supervisor 1,Synthetic demonstration record,Met
+EMP-0307,Priya Nair,BKC,Demo client 4,2026-09-06,Day,9,present,08:00,16:00,9,Completed,0,Supervisor 4,Synthetic demonstration record,Met
+EMP-0409,Rohan Das,Thane,Demo client 5,2026-09-08,Day,9,Present,08:00,16:00,8,Completed,0,Supervisor 5,Synthetic demonstration record,Met
+EMP-0001,Aarav Shah,Vikhroli,Demo client 1,2026-09-11,Day,9,Present,08:00,16:00,8,Completed,1,Supervisor 1,Synthetic demonstration record,Met
+EMP-0103,Sneha Patil, ANDHERI ,Demo client 2,2026-09-13,Day,9,Present,08:00,16:00,8,Completed,1,Supervisor 2,Synthetic demonstration record,Met
