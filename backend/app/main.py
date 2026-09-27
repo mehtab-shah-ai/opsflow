@@ -234,7 +234,8 @@ class JobRunner:
 
 
 def create_app(runtime: Path | None = None):
-    root = runtime or Path(os.getenv("RUNTIME_DIR", str(ROOT / "runtime")))
+    default_runtime = Path("/tmp/opsflow_runtime") if os.getenv("RENDER") else (ROOT / "runtime")
+    root = runtime or Path(os.getenv("RUNTIME_DIR", str(default_runtime)))
 
     @asynccontextmanager
     async def lifespan(app):
