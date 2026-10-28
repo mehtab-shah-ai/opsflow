@@ -1,7 +1,10 @@
-export const API_BASE = (
-  import.meta.env.VITE_API_BASE_URL ||
-  (import.meta.env.PROD ? 'https://opsflow-backend-8e8k.onrender.com' : '')
-).replace(/\/$/, '')
+const rawBase = (import.meta.env.VITE_API_BASE_URL || '').trim()
+const defaultProd = 'https://opsflow-backend-8e8k.onrender.com'
+let resolvedBase = rawBase || (import.meta.env.PROD ? defaultProd : '')
+if (resolvedBase && !resolvedBase.startsWith('http://') && !resolvedBase.startsWith('https://')) {
+  resolvedBase = `https://${resolvedBase}`
+}
+export const API_BASE = resolvedBase.replace(/\/$/, '')
 export const base = API_BASE
 export const apiUrl = (path: string) => API_BASE + path
 

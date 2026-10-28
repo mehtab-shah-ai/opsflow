@@ -16,7 +16,19 @@ services:
         value: /tmp/opsflow_runtime
       - key: GROQ_API_KEY_1
         sync: false
+      - key: GROQ_API_KEY_2
+        sync: false
+      - key: GROQ_MODEL
+        value: openai/gpt-oss-20b
       - key: GEMINI_API_KEY
+        sync: false
+      - key: GEMINI_API_KEY_SECONDARY
+        sync: false
+      - key: GEMINI_MODEL
+        value: gemini-3-flash-preview
+      - key: TAVILY_API_KEY_1
+        sync: false
+      - key: FIRECRAWL_API_KEY_1
         sync: false
 
   # 2. Frontend Static Site (React + Vite + ECharts)

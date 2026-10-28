@@ -33,6 +33,7 @@ yarn-error.log*
 test-results/
 playwright-report/
 *.log
+.pytest_tmp/
 .superdesign/
 
 # OS & Editor

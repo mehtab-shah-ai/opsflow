@@ -434,9 +434,9 @@ export default function App() {
               <span>Workspace</span>
               <ChevronRightSmall />
               <strong>{page}</strong>
-              <div className="grace-topbar-pill" title="OpsFlow Prototype built for Grace Facility Services">
+              <div className="grace-topbar-pill" title="OpsFlow Facility Operations Intelligence Platform">
                 <span className="grace-pulse-dot" />
-                <span>Prototype for Grace Facility Service</span>
+                <span>Facility Operations Intelligence</span>
               </div>
             </div>
 
@@ -891,7 +891,7 @@ export default function App() {
         {guide && (
           <Modal title="From spreadsheet to next step" onClose={() => setGuide(false)}>
             <div className="modal-body guide">
-              <p>OpsFlow AI demonstrates a safe, repeatable workflow for operational data. The facility dataset and rules are synthetic; they do not represent Grace Facility Service’s internal processes.</p>
+              <p>OpsFlow AI demonstrates a safe, repeatable workflow for operational data. The multi-site facility dataset and rules are designed to showcase end-to-end operational intelligence and compliance.</p>
               {[
                 ['01', 'Connect', 'Upload CSV, Excel or a native PDF. Import public Google Sheets. Choose a worksheet or detected table.'],
                 ['02', 'Understand', 'Review schema, quality flags, operational exceptions and automatically recommended charts.'],
@@ -1041,7 +1041,7 @@ export default function App() {
                   <span className={`wakeup-badge ${wakeSuccess ? 'success' : ''}`}>
                     {wakeSuccess ? 'CONNECTED' : 'RENDER FREE TIER'}
                   </span>
-                  <span className="wakeup-badge-dim">GRACE FACILITY PROTOTYPE</span>
+                  <span className="wakeup-badge-dim">OPERATIONS ENGINE</span>
                 </div>
                 <h3 id="wakeup-title">
                   {wakeSuccess ? 'Backend is Ready!' : 'Backend is Waking Up… Please Wait'}

@@ -39,7 +39,7 @@ SimpleDocTemplate(str(out / "facility_operations_report.pdf"), leftMargin=35, ri
     [
         Paragraph("OpsFlow | Facility operations sample", styles["Title"]),
         Paragraph(
-            "Synthetic demonstration data. Not Grace Facility Service records.", styles["BodyText"]
+            "Synthetic facility operations demonstration data.", styles["BodyText"]
         ),
         Spacer(1, 18),
         t,

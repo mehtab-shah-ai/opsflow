@@ -1,13 +1,13 @@
 # OpsFlow AI ⚡
 ### Intelligent Facility Operations, Automated Data Cleaning & Compliance Engine
-> **Prototype Engineered for Grace Facility Services**  
+> **Engineered for Multi-Site Enterprise Facility Operations**  
 > *Transforming messy spreadsheets, shift rosters, and multi-site facility data into trusted operational clarity.*
 
 ---
 
 ## 🌟 Executive Summary: The Problem & The Solution
 
-In large facility management companies like **Grace Facility Services**, operations teams handle dozens of daily spreadsheets, shift logs, and client reports across multiple sites (e.g. Sydney CBD, North Sydney, Parramatta, Melbourne). 
+In large facility management companies, operations teams handle dozens of daily spreadsheets, shift logs, and client reports across multiple sites (e.g. Sydney CBD, North Sydney, Parramatta, Melbourne). 
 
 ### 🛑 The Problem
 * **Messy & Inconsistent Data:** Field staff enter dates inconsistently (`2024-09-12`, `12/09/2024`, `Sept 12`), names with trailing whitespace, and inconsistent shift statuses.
@@ -221,7 +221,7 @@ All 23 tests pass cleanly in under 10 seconds.
 
 ---
 
-## 👥 Credits & Prototype Context
-This project was conceptualized and built by **Mehtab Shah** as a specialized operational intelligence prototype for **Grace Facility Services**.
+## 👥 Credits & Project Context
+This project was conceptualized and built by **Mehtab Shah** as an advanced operational intelligence and data compliance engine for multi-site facility and workforce operations.
 * **Repository:** [https://github.com/mehtab-shah-ai/opsflow](https://github.com/mehtab-shah-ai/opsflow)
 * **Author:** Mehtab Shah

@@ -273,7 +273,7 @@ def create_app(runtime: Path | None = None):
             "version": "1.0.0",
             "health": "/health",
             "docs": "/docs",
-            "prototype": "Grace Facility Services",
+            "prototype": "Facility Operations Intelligence",
         }
 
     @app.get("/health")
