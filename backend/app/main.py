@@ -266,6 +266,7 @@ def create_app(runtime: Path | None = None):
     )
 
     @app.get("/")
+    @app.head("/")
     def root_status():
         return {
             "service": "OpsFlow AI Backend",
@@ -277,6 +278,7 @@ def create_app(runtime: Path | None = None):
         }
 
     @app.get("/health")
+    @app.head("/health")
     def health_check():
         return {"status": "ok", "service": "OpsFlow Backend"}
 

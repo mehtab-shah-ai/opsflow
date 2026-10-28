@@ -1,5 +1,5 @@
 const rawBase = (import.meta.env.VITE_API_BASE_URL || '').trim()
-const defaultProd = 'https://opsflow-backend-8e8k.onrender.com'
+const defaultProd = 'https://opsflow-backend-tq5g.onrender.com'
 let resolvedBase = rawBase || (import.meta.env.PROD ? defaultProd : '')
 if (resolvedBase && !resolvedBase.startsWith('http://') && !resolvedBase.startsWith('https://')) {
   resolvedBase = `https://${resolvedBase}`
